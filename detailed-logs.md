@@ -1,3 +1,27 @@
+### charliemeyer2000: 'added fav fullstack tools' @ 06/17/2023, 14:48:29 to charliemeyer2000
+
+    Code Added:
+        File: README.md
+    +         <li><h2 style="color: #FFDEAD">My Fav Fullstack Tools</h2>
+    +             <ul>
+    +                 <li style="display:inline"><a href="https://react.dev/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">React</a></li>
+    +                 <li style="display:inline"><a href="https://redux.js.org/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Redux</a></li>
+    +                 <li style="display:inline"><a href="https://nextjs.org/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Nextjs</a></li>
+    +                 <li style="display:inline"><a href="https://github.com/css-modules/css-modules"style="color: #FFD700"target="_blank" rel="noopener noreferrer">CSS Modules</a></li>
+    +                 <li style="display:inline"><a href="https://www.docker.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Docker</a></li>
+    +                 <li style="display:inline"><a href="https://www.nginx.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Nginx</a></li>
+    +                 <li style="display:inline"><a href="https://www.mongodb.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">MongoDB</a></li>
+    +                 <li style="display:inline"><a href="https://firebase.google.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Firebase</a></li>
+    +                 <li style="display:inline"><a href="https://cloud.google.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Google Cloud</a></li>
+    +                 <li style="display:inline"><a href="https://vercel.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Vercel</a></li>
+    +             </ul>
+
+
+    Code Removed:
+        File: README.md
+
+
+
 ### charliemeyer2000: 'added another tool' @ 06/17/2023, 13:54:46 to charliemeyer2000
 
     Code Added:
