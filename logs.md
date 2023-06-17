@@ -1,3 +1,11 @@
+### charliemeyer2000: 'started working on summary chain' @ 06/17/2023, 00:55:47 to assorted-scenthound-things
+The following files were modified: 
+- dog-chatbot-vectordb/chroma_db_example.ipynb
+- run_vicuna.py
+
+A GPT summary of this commit is: _This commit started working on the summary chain feature. It added code to the dog-chatbot-vectordb/chroma_db_example.ipynb file to create a chain to summarize information from the database with a retriever. It also removed the import os line_
+
+
 ### charliemeyer2000: 'should have removed my chatbot copy' @ 06/17/2023, 00:47:05 to assorted-scenthound-things
 The following files were modified: 
 - .DS_Store
