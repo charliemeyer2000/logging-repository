@@ -1,3 +1,15 @@
+### charliemeyer2000: 'added kuberenetes' @ 06/17/2023, 14:58:24 to charliemeyer2000
+
+    Code Added:
+        File: README.md
+    +                 <li style="display:inline"><a href="https://kubernetes.io/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Kuberenetes</a></li>
+
+
+    Code Removed:
+        File: README.md
+
+
+
 ### charliemeyer2000: 'added github' @ 06/17/2023, 14:56:27 to charliemeyer2000
 
     Code Added:
