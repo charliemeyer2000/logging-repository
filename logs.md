@@ -1,7 +1,7 @@
 ### charliemeyer2000: 'added github' @ 06/17/2023, 14:56:27 to charliemeyer2000
 The following files were modified: 
 - README.md
-\GPT Summary: 
+\nGPT Summary: 
  > `-                 <li style="display:inline"><a href="https://gitlab.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">GitLab</a></li>
 
 This commit adds a link`
