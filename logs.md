@@ -1,3 +1,12 @@
+### charliemeyer2000: 'updated readme on logging-repository' @ 06/17/2023, 01:05:25 to logging-repository
+The following files were modified: 
+- README.md
+
+A GPT summary of this commit is: _--------------
+        File: README.md
+    - This repository contains logs and detailed logs of any commits I make that are set up to my webhook endpoint. Any time I commit or perform any action on a repository that has this webhook configured, it edits this `log_
+
+
 ### charliemeyer2000: 'started working on summary chain' @ 06/17/2023, 00:55:47 to assorted-scenthound-things
 The following files were modified: 
 - dog-chatbot-vectordb/chroma_db_example.ipynb
