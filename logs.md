@@ -1,3 +1,14 @@
+### charliemeyer2000: 'should have removed my chatbot copy' @ 06/17/2023, 00:47:05 to assorted-scenthound-things
+The following files were modified: 
+- .DS_Store
+- .gitignore
+
+A summary of this commit is: iled Deleted:
+    ---------------
+        File: dog-chatbot-vectordb/chatbot_copy.py
+
+This commit removed the file 'dog-chatbot-vectordb/chatbot_copy.py' and added several files related to the
+
 ### charliemeyer2000: 'major epic change' @ 06/17/2023, 00:38:44 to assorted-scenthound-things
 The following files were modified: 
 - run_vicuna.py
