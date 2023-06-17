@@ -1,16 +1,3 @@
-IyBMb2dnaW5nIFJlcG9zaXRvcnkKClRoaXMgcmVwb3NpdG9yeSB0YWtlcyBh
-ZHZhbnRhZ2Ugb2YgR2l0SHViIHdlYmhvb2tzIGFuZCB1c2VzIGBuZ3Jva2Ag
-dG8gcG9pbnQgYSBwdWJsaWMgZmFjaW5nIHVybCB0byBteSBsb2NhbGhvc3Qu
-IEFueSB0aW1lIEkgY29tbWl0IG9yIHBlcmZvcm0gYW55IGFjdGlvbiBvbiBh
-IHJlcG9zaXRvcnkgdGhhdCBoYXMgdGhpcyB3ZWJob29rIGNvbmZpZ3VyZWQs
-IGl0IGVkaXRzIHRoaXMgYFJFQURNRS5tZGAgZmlsZSBhbmQgYWRkcyBhIG5l
-dyBgaDNgIHRvIHRoZSBmaWxlIHdpdGggdGhlIGNvbW1pdCBuYW1lLCByZXBv
-c2l0b3J5IGNvbW1pdHRlZCB0bywgYW5kIHRoZSBkYXRlLiBCZWxvdyB0aGUg
-aGVhZGVyLCBhIHN1bW1hcnkgb2YgdGhlIGNvZGUgKHVwIHRvIDIwMDAgY2hh
-cmFjdGVycykgaXMgZ2VuZXJhdGVkIHVzaW5nIEdQVCAzLjUgdG8gc3VtbWFy
-aXplIHRoZSBjaGFuZ2VzLiAKCgojIyMgaSByZW1vdmVkIGEgY29tbWVudC4K
-VGhpcyBjb21taXQgcmVtb3ZlZCBhIGNvbW1lbnQgZnJvbSB0aGUgY29kZS4K
+# Logging Repository
 
-
-### made a change @ 06/16/2023, 23:16:15 to assorted-scenthound-things
-This commit made a change to the code, though the exact change is not specified.
+This repository takes advantage of GitHub webhooks and uses `ngrok` to point a public facing url to my localhost. Any time I commit or perform any action on a repository that has this webhook configured, it edits this `logs.md` file and adds a new `h3` to the file with the commit name, repository committed to, and the date. Below the header, a summary of the code (up to 2000 characters) is generated using GPT 3.5 to summarize the changes. 
