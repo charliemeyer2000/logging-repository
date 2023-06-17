@@ -1,3 +1,15 @@
+### charliemeyer2000: 'added github' @ 06/17/2023, 14:56:27 to charliemeyer2000
+
+    Code Added:
+        File: README.md
+    +                 <li style="display:inline"><a href="https://github.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">GitHub</a></li>
+
+
+    Code Removed:
+        File: README.md
+
+
+
 ### charliemeyer2000: 'added fav fullstack tools' @ 06/17/2023, 14:48:29 to charliemeyer2000
 
     Code Added:
