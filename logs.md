@@ -2,16 +2,17 @@
 The following files were modified: 
 - README.md
 
-A GPT summary of this commit is: _-         <li><h2 style="color: #FFDEAD">My Fav Frontend Tools</h2>
+Summary: 
+> `<li><h2 style="color: #FFDEAD">My Fav Frontend Tools</h2>
     -             <ul>
-    -                 <li style="display:inline"><a href="https://react.dev/"style="color: #FF_
+    -                 <li style="display:inline"><a href="https://react.dev/"style="color: #FF_`
 
 
 ### charliemeyer2000: 'added another tool' @ 06/17/2023, 13:54:46 to charliemeyer2000
 The following files were modified: 
 - README.md
 
-A GPT summary of this commit is: _Summary: This commit added another tool to the README.md file, which includes links to CSS3, Google Cloud Platform, Git, HTML5, Java, JavaScript, Node.js, and Python._
+`Summary: This commit added another tool to the README.md file, which includes links to CSS3, Google Cloud Platform, Git, HTML5, Java, JavaScript, Node.js, and Python.`
 
 
 ### charliemeyer2000: 'added another tool to my repository' @ 06/17/2023, 13:49:05 to charliemeyer2000
