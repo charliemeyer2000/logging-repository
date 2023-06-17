@@ -1,3 +1,16 @@
+### charliemeyer2000: 'added hymn.market' @ 06/17/2023, 18:54:24 to charliemeyer2000
+
+    Code Added:
+        File: README.md
+    +  Welcome to my GitHub! I'm Charlie Meyer, a full-time student at UVA who also loves to code things - websites, projects, and ml models. The goal of my GitHub is to be a place to display my projects and also be a space for new developers to find useful resources to get started. I personally believe GitHub and personal websites are much better than LinkedIn to show off who you are & what you're passionate about. I have a LinkedIn, but I'd prefer you look here instead! Check out my website <a href="https://charliemeyer.xyz" target="_blank" rel="noopener noreferrer" style="color: #FFD700;">charliemeyer.xyz</a> and the startup i'm working on <a href="https://hymn.market" target="_blank" rel="noopener noreferrer" style="color: #FFD700;"> hymn.market </a> and email <a href="mailto:charlie@charliemeyer.xyz" style="color: #FFD700; " target="_blank" rel="noopener noreferrer">charlie@charliemeyer.xyz</a>  for any inquiries.
+
+
+    Code Removed:
+        File: README.md
+    -  Welcome to my GitHub! I'm Charlie Meyer, a full-time student at UVA who also loves to code things - websites, projects, and ml models. The goal of my GitHub is to be a place to display my projects and also be a space for new developers to find useful resources to get started. I personally believe GitHub and personal websites are much better than LinkedIn to show off who you are & what you're passionate about. I have a LinkedIn, but I'd prefer you look here instead! Check out my website <a href="https://charliemeyer.xyz" target="_blank" rel="noopener noreferrer" style="color: #FFD700;">charliemeyer.xyz</a> and email <a href="mailto:charlie@charliemeyer.xyz" style="color: #FFD700; " target="_blank" rel="noopener noreferrer">charlie@charliemeyer.xyz</a>  for any inquiries.
+
+
+
 ### charliemeyer2000: 'added kuberenetes' @ 06/17/2023, 14:58:24 to charliemeyer2000
 
     Code Added:
