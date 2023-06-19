@@ -1,3 +1,11 @@
+### charliemeyer2000: 'added more to scrolling svg' @ 06/19/2023, 13:15:48 to charliemeyer2000
+The following files were modified: 
+- README.md
+
+GPT Summary: 
+ > `This commit added more to the scrolling SVG in the README.md file. Specifically, the code was updated to include the additional line "ngrok http 9000".`
+
+
 ### charliemeyer2000: 'changed writeup' @ 06/17/2023, 19:01:19 to charliemeyer2000
 The following files were modified: 
 - README.md
