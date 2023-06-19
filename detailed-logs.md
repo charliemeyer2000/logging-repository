@@ -1,3 +1,16 @@
+### charliemeyer2000: 'added more to scrolling svg' @ 06/19/2023, 13:15:49 to charliemeyer2000
+
+    Code Added:
+        File: README.md
+    +     <a href="https://github.com/charliemeyer2000"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFDEAD&center=true&vCenter=true&width=435&lines=Full-stack+developer;kubectl apply -f ingress.yml;Professional Proompter;Late-night+coffee+drinker;$\forall_x \in \mathbb{N}$;:wq;int getRandomNumber(){return 4};display:grid place-content:center;ngrok http 9000" alt="Typing SVG of various programmer humor jokes and other things about me" /></a>
+
+
+    Code Removed:
+        File: README.md
+    -     <a href="https://github.com/charliemeyer2000"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFDEAD&center=true&vCenter=true&width=435&lines=Full-stack+developer;kubectl apply -f ingress.yml;Professional Proompter;Late-night+coffee+drinker;$\forall_x \in \mathbb{N}$;:wq;int getRandomNumber(){return 4};display:grid place-content:center" alt="Typing SVG of various programmer humor jokes and other things about me" /></a>
+
+
+
 ### charliemeyer2000: 'changed writeup' @ 06/17/2023, 19:01:20 to charliemeyer2000
 
     Code Added:
