@@ -1,3 +1,16 @@
+### charliemeyer2000: 'added a period.' @ 06/19/2023, 13:17:39 to website
+
+    Code Added:
+        File: index.html
+    + <p>Hi! I'm Charlie Meyer, an programmer/developer from Washington, D.C., currently completing undergraduate studies in computer science at UVA. I'm into weightlifting, skateboarding, embroidery, an occasional set of SSBM and also like movie making. I'm also working on a startup with a buddy of mine called HymnAI, it's pretty sweet and I'm super proud of it.</p>
+
+
+    Code Removed:
+        File: index.html
+    - <p>Hi! I'm Charlie Meyer, an programmer/developer from Washington, D.C., currently completing undergraduate studies in computer science at UVA. I'm into weightlifting, skateboarding, embroidery, an occasional set of SSBM and also like movie making  I'm also working on a startup with a buddy of mine called HymnAI, it's pretty sweet and I'm super proud of it.</p>
+
+
+
 ### charliemeyer2000: 'added more to scrolling svg' @ 06/19/2023, 13:15:49 to charliemeyer2000
 
     Code Added:
