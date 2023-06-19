@@ -1,3 +1,11 @@
+### charliemeyer2000: 'added a period.' @ 06/19/2023, 13:17:38 to website
+The following files were modified: 
+- index.html
+
+GPT Summary: 
+ > `This commit adds a period to the end of a sentence in the index.html file.`
+
+
 ### charliemeyer2000: 'added more to scrolling svg' @ 06/19/2023, 13:15:48 to charliemeyer2000
 The following files were modified: 
 - README.md
