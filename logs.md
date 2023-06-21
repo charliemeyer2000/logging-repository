@@ -1,3 +1,17 @@
+### charliemeyer2000: 'brian notes meeting 1' @ 06/20/2023, 22:13:58 to assorted-scenthound-things
+The following files were modified: 
+- .DS_Store
+
+GPT Summary: 
+ > `+             }
+    +         }
+    +     }
+    + }
+    + ```
+
+This commit adds a new file, .DS_Store, and updates the notes/brian-notes.md file. The notes discuss the Scenter App, which`
+
+
 ### charliemeyer2000: 'added a period.' @ 06/19/2023, 13:17:38 to website
 The following files were modified: 
 - index.html
