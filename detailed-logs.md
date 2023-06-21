@@ -1,3 +1,184 @@
+### charliemeyer2000: 'start of documentation' @ 06/21/2023, 14:14:46 to assorted-scenthound-things
+
+    Code Added:
+        File: notes/scenter-app-learning.md
+    + # Scenter App Learning
+    + 
+    + This is just notes and things i've learned/need to learn to undertstand and work with the SCENTER app. 
+    + 
+    + ## Summary
+    + 
+    + This application is used by scent-techs during their evaluation of dogs. It allows them to record information about the dog & the scent-check which will be saved and also sent to the dog parent. 
+    + 
+    + The Scenter App is a serverless application that uses AWS AppSync to communicate with a MySQL database. The application is written in TypeScript and uses the Serverless Framework to deploy the application to AWS. The Scenter App does not actually communicate with myTime, but it reads information from a replica. This replica also has some information from legacy systems before the migration to myTime (2022) and excludes sensitive information such as client information.
+    + 
+    + This all then is used in the frontend (a React app using TypeScript) to display information to the scent-techs and allow them to record information about the dog & scent-check.
+    + 
+    + ## Backend
+    + 
+    + 
+    + ### Setup & Configuration
+    + 
+    + Before you start working with any of the code (even frontend code!) make sure that you have installed yarn (if you're used to `npm`, just run `npm install -g yarn` to install yarn globally). 
+    + 
+    + Also, reach out to Andy (or _insert manager here_) to get AWS credentials. This should be a `.csv` file that contains a key and a secret to create the credentials. First install the AWS CLI. 
+    + 
+    + 1. For MacOS users, download the pkg [here](https://awscli.amazonaws.com/AWSCLIV2.pkg), and then run the installer as you would any other application. If you want to install using the command line, follow instructions [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html). 
+    + 1. For windows users, you can install it using the [AWS CLI MSI Installer (64 bit)](https://awscli.amazonaws.com/AWSCLIV2.msi) and follow the steps accordingly.
+    + 1. For Linux, follow the `cURL` command and unzip it, and run the installer. 
+    + 
+    + Once you have the AWS CLI installed, run `aws configure` and enter the credentials from the `.csv` file. Ensure that you are creating a profile called "scenthound" (or whatever you want to call it, but this is what the `serverless.yml` file is looking for). To check that you have the correct credentials, you can run `aws s3 ls --profile scenthound` and it should list the buckets that are in the account, and you can verify that those are correct by logging in to the AWS website and checking the buckets.
+    + 
+    + 
+    + ### `serverless.yml`
+    + 
+    + Of all the places to begin learning, think of this file as your _entry point_ into the application. This is a central configuration file that defines the infrastructure and deployment settings of the serverless application. Understanding what happens here - the configuration and all the things it communicates with & uses - is a way to understand the application as a whole.
+    + 
+    + * `serverless.yml` - `service`
+    +     * this is the first line of the file, defining the name of the service (i.e. "scenter-backend"). 
+    + * `serverless.yml` - `provider`
+    +     * This specifies the cloud provider (i.e. AWS) and the runtime, profile, and region.
+    + * `serverless.yml` - `environment`
+    +     * Defines environment variables that are used throughout the application.
+    + * `serverless.yml` - `httpApi`
+    +     * Defines the http api that is used to communicate with the application. In this case, it just uses cors. 
+    + * `serverless.yml` - `iam`
+    +     * Defines the IAM roles that are used throughout the application and thier permissions for accessing AWS resources.
+    + * `serverless.yml` - `custom`
+    +     * Defines various custom settings that are used throughout the application.
+    + * `serverless.yml` - `appSync`
+    +     * This configures settings for AWS AppSync API. Specifically focusing on the schema - it defines the schema according to the `schemas/*.graphql` files. Furthermore, it establishes the dataSources of "lambdaSource" and "lambdaBatchSource" for the lambda functions. 
+    +     * Finally, a majority of section is just defining resolvers for the various queries & mutations.
+    + * `serverless.yml` - `functions`
+    +     * This defines Lambda handles that are a part of the application. Crucially, _lambdaSource_ and _lambdaBatchSource_ are defined here.
+    + 
+    + #### `serverless.yml` - `custom`
+    + 
+    + As mentioned above, the **custom** section of the `serverless.yml` file defines various custom settings that are used throughout the application. Here's a walkthrough of the major sections within it:
+    + 
+    + * `serverless.yml` - `custom` - `defaults`
+    +     * Defines a YML anchor to reuse common configuration settings & default values. 
+    + * `serverless.yml` - `custom` - `dev` && `prod`
+    +     * This section specifies configuration settings for the "dev" and "prod" stages. 
+    + * `serverless.yml` - `custom` - `defaultSource` && `defaultBatchSource` 
+    +     * These sections define YML anchors for the source configuration used in lambda functions. They set the data sources to "lambdaSource" and "batchLambdaSource", respectively.
+    + 
+    + ### `schemas/app.graphql`
+    + 
+    + (Assuming you've never used GraphQL before like me) - this is the file that contains the GraphQL schema definition for the application. At a high-level, GraphQL allows clients to request specific data and shape the response of the data. This is a way to reduce the amount of data that is sent back and forth between the client and the server. Before tackling all the things that are written, it's important to understand key components of the schema.
+    + 
+    + 1. Query - this is a way to get data from the server.
+    + 2. Mutation - this is a way to change data on the server.
+    + 3. Subscription - this is a way to get notified when data changes on the server.
+    + 4. Scalar types - these are the primitive types that are used in the schema. 
+    +     * String
+    +     * Int
+    +     * Float
+    +     * Boolean
+    +     * Long
+    + 5. Interfaces - these are abstract types that define a set of fields that must be implemented by any object type that implements the interface (a la DSA1 for UVA students). 
+    + 6. Types - types represent the object types in the schema. Each type has its own set of fields. 
+    +     * Query Type - entry point for fetching data.
+    +     * Mutation Type - operations that change data on the server.
+    +     * Subscription Type - real time data streaming.
+    +     * Others 
+    + 7. Input Types - special types that are used to pass arguments to queries and mutations.
+    + 8. Enums - special types that are used to define a set of constants.
+    + 
+    + #### `schemas/app.graphql` - Types
+    + 
+    + 1. `Query Type`
+    + 
+    + ```graphql
+    + type Query {
+    +   # Relay compatibility
+    +   node(id: ID!): Node!
+    +   appointment(id: ID, myTimeId: Long): Appointment
+    +   status(id: ID, appointmentId: ID): AppointmentStatus!
+    +   employee(id: ID!): Employee!
+    +   location(id: ID, myTimeId: Int): Location!
+    +   dog(id: ID, myTimeId: Int): Dog!
+    +   client(id: ID!): Client!
+    + 
+    +   fieldOptions(fields: [String!]!): [FieldOptionsGroup!]!
+    + 
+    +   getAppointments(locationId: Int!, start: AWSDateTime, end: AWSDateTime): [Appointment!]!
+    + 
+    +   products: [Product!]!
+    +   membershipTemplates(locationId: ID, myTimeId: Int): [MembershipTemplate!]!
+    + }
+    + ```
+    + 
+    + This is the entry point for fetching data. Notice the various required (marked by `!`) and optional fields. Also, since it implements the `Node` interface, it has a `node` field that can be used to fetch any object by its ID.
+    + 
+    + 2. `Mutation Type`
+    + 
+    + This represents the operations that can modify data. Note that the operations that acn modify data are all inputs. 
+    + 
+    + ```graphql
+    + type Mutation {
+    +   createStatus(data: CreateStatusInput!): AppointmentStatus!
+    +   updateStatus(data: UpdateStatusInput!): AppointmentStatus!
+    +   addAttachments(id: ID!, attachments: [AttachmentInput!]!): AppointmentStatus!
+    +   removeAttachments(id: ID!, keys: [String!]!): AppointmentStatus!
+    +   updateScentchecks(data: UpdateScentchecksInput!): AppointmentStatus!
+    +   # timerStatus(id: ID!, status: TimerStatus): AppointmentStatus!
+    +   pauseTimer(data: PauseTimerInput!): AppointmentStatus!
+    +   startTimer(data: StartTimerInput!): AppointmentStatus!
+    +   updateDog(data: UpdateDogInput!): Dog
+    +   updateClient(data: UpdateClientInput!): Client
+    +   markAppointment(data: MarkAppointmentInput!): Appointment
+    + }
+    + ```
+    + 
+    + These allow the basic _CRUD_ operations on the data.
+    + 
+    + 3. `Subscription Type`
+    + 
+    + This defines a subscription operation (similar to onSnapshot in Firebase, for Forge Interns) that can be used to 'subscribe' to real-time changes in data.
+    + 
+    + ```graphql
+    + type Subscription {
+    +   ## Arguments matched against return value of updateStatus mutation
+    +   onUpdateStatus(id: ID!): AppointmentStatus
+    +     @aws_subscribe(mutations: ["updateStatus"])
+    + }
+    + ```
+    + 
+    + #### `schemas/app.graphql` - Other
+    + 
+    + You can look around in the `app.graphql` file to see the various interfaces, types, inputs, and other declarations that are used in the schema. All of these will be used in the resolvers that are defined in the `serverless.yml` file.
+    + 
+    + ### Other
+    + 
+    + I would suggest looking around at other files within the backend, but the majority of what was written above is the most important. 
+    + 
+    + 
+    + ## Frontend
+    + 
+    + ### Tools Used
+    + 
+    + Here's a basic rundown of the tools used (besides the obvious, like `create-react-app`).
+    + 
+    + 1. `react-router-dom` - used for routing within the application. You can see the main routing of the application in `src/Index.tsx`. 
+    + 1. `react-redux` - 
+    + 
+    + ### Deployment
+    + 
+    + Currently (as of 6/20/23) the method of deployment is to simply run the following commands in the `scenter-app` directory:
+    + 
+    + 1. `yarn run build:prod` for production build or `yarn run build:dev` for development build.
+    + 1. `bash deploy/upload.sh`
+    + 
+    + In the future pipelines should be made to automatically do this when pushing to dev/main, but this is what we do for now. 
+    + 
+
+
+    Code Removed:
+        File: notes/scenter-app-learning.md
+
+
+
 ### charliemeyer2000: 'brian notes meeting 1' @ 06/20/2023, 22:13:59 to assorted-scenthound-things
 
     Code Added:
