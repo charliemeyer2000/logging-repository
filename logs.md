@@ -1,3 +1,9 @@
+### charliemeyer2000: 'start of documentation' @ 06/21/2023, 14:14:45 to assorted-scenthound-things
+No files were modified in this commit.
+GPT Summary: 
+ > `This commit starts the documentation for the Scenter App Learning. It includes setup and configuration instructions for the backend, such as installing yarn and getting AWS credentials. It also provides an overview of the application, which is a serverless application that uses AWS AppSync to communicate with a MySQL database and`
+
+
 ### charliemeyer2000: 'brian notes meeting 1' @ 06/20/2023, 22:13:58 to assorted-scenthound-things
 The following files were modified: 
 - .DS_Store
