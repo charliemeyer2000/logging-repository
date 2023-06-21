@@ -1,3 +1,90 @@
+### charliemeyer2000: 'brian notes meeting 1' @ 06/20/2023, 22:13:59 to assorted-scenthound-things
+
+    Code Added:
+        File: .DS_Store
+
+    File: notes/brian-notes.md
+    + # Notes with Brian
+    + 
+    + ## Scenter App
+    + 
+    + Reading information from read-replica of the database rather than directly from the myTime database. So when you;re interacting with "myTime" data you're actually just interacting with replicas. 
+    + 
+    + Sensitive data is removed from the replicas, such as client information. There is also information mixed in from other legacy systems before migration about a year ago (2022).
+    + 
+    + ### Backend
+    + 
+    + AppSync is the aws technology that it uses. It is a toolkit for building GraphQL api's. There is a YML file that configures the backend `serverless.yml`. This includes appsync and lambda functions, and is largely declarative (with some exceptions for different environments, _prod_, _dev_, etc). This only uses **2** different _resolvers_.  The datasource, called "lambdasource" is the resolver, and there's another one called "batchLambdaSource." These are two lambda resolvers for everything. This is not standard (you're supposed to use VTL) but it's a workaround for the fact that the data is coming from a read-replica.
+    + 
+    + #### GraphQl
+    + 
+    + * This is a query language that gets exactly what you want (objects, fields, etc) that you've requested to save back-and-forth wasted data.
+    +     * Scales costs relatively to what you need, in addition to caching and bashing. 
+    + * check this out at `app.graphql` to see the types and queries that are available.
+    + * the configuration file `serverles.yml` communicates with the graphql schema to create the api.
+    + 
+    + 
+    + ```graphql
+    + query GetLocation {
+    +     location(myTimeId: 12345) {
+    +         name
+    +         companyId
+    + 
+    +         scentchecks {
+    +             dog {
+    +                 name
+    + 
+    +                 client {
+    +                     firstName
+    +                 }
+    +             }
+    + 
+    +         }
+    +     }
+    + }
+    + 
+    + ```
+    + 
+    + #### Default Batch Source (Resolver)
+    + 
+    + `handlers.ts` is the file that returns the same things as a single resolver except it does it in batches through the `AppSyncResolverHandler`. All mysql queries are made in terms of batches. 
+    + 
+    + 
+    + #### Data Sources
+    + 
+    + * `db`: dynamodb - mySql, where we get all of our data from MyTime and _some_ of our application data (i.e. scentchecks). 
+    + * `mysql`: myTime 
+    + 
+    + #### Mutations
+    + 
+    + How you make things change. `handlemutation` is handled by the simple resolver instead of the batch resolver. 
+    + 
+    + 
+    + #### Subscriptions
+    + 
+    + 
+    + 
+    + ### Summary
+    + 
+    + AppSync exposes an api through the `serverless.yml` file which is read through the `app.graphql` file. Those resolvers can be handled differently depending on specific needs. 
+    + 
+    + 
+    + ### Fragments
+    + 
+    + Fragments are a way to reuse queries. 
+    + 
+    + ```graphql
+    + 
+    + 
+
+
+    Code Removed:
+        File: .DS_Store
+
+    File: notes/brian-notes.md
+
+
+
 ### charliemeyer2000: 'added a period.' @ 06/19/2023, 13:17:39 to website
 
     Code Added:
