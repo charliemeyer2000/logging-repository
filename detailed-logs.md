@@ -1,3 +1,42 @@
+### charliemeyer2000: 'documentation on relay & config' @ 06/22/2023, 18:01:10 to assorted-scenthound-things
+
+    Code Added:
+        File: notes/scenter-app-learning.md
+    + Here's a basic rundown of the tools used (besides the obvious, like `create-react-app`). This includes both the libraries used and other tools. 
+    + 1. `yarn` - this uses yarn instead of `npm` for package management, so make sure to run `yarn install` instead of `npm install` when installing packages.
+    + 1. `eslint` - used for linting, which is a way to enforce code style and catch bugs. You can see the configuration in `.eslintrc.js`. If you're using VSCode, I would suggest installing the ESLint extension and configuring it to automatically fix on save. I have a custom command for "ESLint: fix all auto-fixable Problems: eslint.executeAutoFix" to do this. 
+    +     * Note: You can access the keyboard shortcuts with `cmd + k` and then `cmd + s` and preferences with `cmd + ,` on Mac, or `ctrl + k` and then `ctrl + s` and preferences with `ctrl + ,` on Windows.
+    + 1. `react-redux` - library used for state management. In this case, it is used for authentication working with cognito. You can see the redux store and other configuration in the folder `src/redux`. 
+    + 1. `craco` - this is used to override the webpack configuration that is used by `create-react-app`. You can see the configuration in `craco.config.js`.
+    + 1.  `relay` - this is the library used for GraphQL. You can see the configuration. If you are getting errors when attempting to run `yarn relay:watch` or other relay commands, make sure you have installed `watchman` on your machine. You can do this with `brew install watchman` on Mac or `choco install watchman` on Windows. Read more about specifics of relay & appsync [here](#appsync--updating-the-schema).
+    + 
+    + ### AppSync & Updating the Schema
+    + 
+    + The website has to stay up-to-date with the schema in AppSync. To do this, there is a script in the `scripts` folder called `update-appsync.sh` that achieves this, along with various yarn scripts in `package.json` to help you. Below is a high-level outline of what they do and when/how to use them. 
+    + 
+    + 1. Directly running the `update-appsync.sh` script will update your local schema to the latest version in AppSync. furthermore, there are options to run it in prod or dev. If you specify prod - `update-appsync prod` it updates from the prod environment - if you don't specify, it defaults to dev. 
+    +     * This is important to understand the difference between dev and prod, too - there are two different databases. Go to AWS Console and log in (see [Setup and Configuration](#setup--configuration) if you don't have a login). Then, go to AppSync and you'll see two different environments - dev and prod. These are the two different databases. Navigate to "Queries" and you can run queries on the database and poke around to see the schema to validate what exists/what doesn't. 
+    +         * To run queries, click _log in with user pools_ and log in as if you were inputting a Location ID and password into the actual app (you're logging in as per). 
+    +     * So, when you are running update-appsync.sh, it updates according to the schemas in either the `dev` or `prod` environment that you see in AppSync.
+    + 
+    + #### When/how to use `update-appsync.sh`
+    + 
+    + You should run this script whenever you make changes to the schema in AppSync. This is because the schema is used by relay to generate types and other things that are used in the frontend. For example, if you want to display a new field on the frontend, you'd have to add it to the schema and then update your schema. 
+    + 
+    + There are various commands related to `relay`, including `relay`, `relay:prod` and `relay:watch`. You can look at exactly what's executed in the `package.json` file, but a summary is:
+    + 1. `relay` - runs `update-appsync.sh` on the dev environment and starts the relay compiler.
+    + 1. `relay:prod` - runs `update-appsync.sh` on the prod environment and starts the relay compiler.
+    + 1. `relay:watch` - just runs `relay-compiler --watch` to watch for changes in the schema and update the relay files accordingly.
+
+
+    Code Removed:
+        File: notes/scenter-app-learning.md
+    - 
+    - Here's a basic rundown of the tools used (besides the obvious, like `create-react-app`).
+    - 1. `react-redux` - 
+
+
+
 ### charliemeyer2000: 'start of documentation' @ 06/21/2023, 14:14:46 to assorted-scenthound-things
 
     Code Added:
