@@ -1,3 +1,13 @@
+### charliemeyer2000: 'documentation on relay & config' @ 06/22/2023, 18:01:09 to assorted-scenthound-things
+The following files were modified: 
+- notes/scenter-app-learning.md
+
+GPT Summary: 
+ > ``yarn relay:watch` command is used. This will watch for changes in the schema and update the code accordingly.
+
+This commit updates documentation on the tools used in the Scenter App Learning project, including yarn for package management, eslint for linting, react-red`
+
+
 ### charliemeyer2000: 'start of documentation' @ 06/21/2023, 14:14:45 to assorted-scenthound-things
 No files were modified in this commit.
 GPT Summary: 
