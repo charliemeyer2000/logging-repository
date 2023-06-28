@@ -1,3 +1,13 @@
+### charliemeyer2000: 'quick web speech demo' @ 06/28/2023, 15:18:48 to assorted-scenthound-things
+The following files were modified: 
+- .gitignore
+
+GPT Summary: 
+ > `](https://github.com/vercel/next-plugins/tree/master/packages/next-font) to load fonts.
+
+This commit adds files to the project to enable a quick web speech demo. The .gitignore and .vercel files are added to the project to`
+
+
 ### charliemeyer2000: 'documentation on relay & config' @ 06/22/2023, 18:01:09 to assorted-scenthound-things
 The following files were modified: 
 - notes/scenter-app-learning.md
