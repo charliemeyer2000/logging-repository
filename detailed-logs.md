@@ -1,3 +1,585 @@
+### charliemeyer2000: 'quick web speech demo' @ 06/28/2023, 15:18:49 to assorted-scenthound-things
+
+    Code Added:
+        File: .gitignore
+    + 
+    + # ignore node_modules and other things within nextjs app called "tts-demo"
+    + tts-demo/node_modules
+    + tts-demo/.next
+    + tts-demo/package-lock.json
+    + 
+
+    File: tts-demo/.gitignore
+    + # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+    + 
+    + # dependencies
+    + /node_modules
+    + /.pnp
+    + .pnp.js
+    + 
+    + # testing
+    + /coverage
+    + 
+    + # next.js
+    + /.next/
+    + /out/
+    + 
+    + # production
+    + /build
+    + 
+    + # misc
+    + .DS_Store
+    + *.pem
+    + 
+    + # debug
+    + npm-debug.log*
+    + yarn-debug.log*
+    + yarn-error.log*
+    + 
+    + # local env files
+    + .env*.local
+    + 
+    + # vercel
+    + .vercel
+    + 
+    + # typescript
+    + *.tsbuildinfo
+    + next-env.d.ts
+
+    File: tts-demo/README.md
+    + This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+    + 
+    + ## Getting Started
+    + 
+    + First, run the development server:
+    + 
+    + ```bash
+    + npm run dev
+    + # or
+    + yarn dev
+    + # or
+    + pnpm dev
+    + ```
+    + 
+    + Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    + 
+    + You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+    + 
+    + [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+    + 
+    + The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+    + 
+    + This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    + 
+    + ## Learn More
+    + 
+    + To learn more about Next.js, take a look at the following resources:
+    + 
+    + - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+    + - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    + 
+    + You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    + 
+    + ## Deploy on Vercel
+    + 
+    + The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    + 
+    + Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+    File: tts-demo/assets/mic.svg
+    + <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+    + <svg fill="#000000" width="800px" height="800px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    +     <path d="M15.965 22h0.238c2.78 0 4.797-2.050 4.797-4.874v-11.919c0-2.92-2.108-5.207-4.798-5.207h-0.237c-2.738 0-4.965 2.336-4.965 5.207v11.919c0 2.779 2.135 4.874 4.965 4.874zM13 5.207c0-1.768 1.33-3.207 2.965-3.207h0.238c1.595 0 2.797 1.379 2.797 3.207v11.919c0 1.718-1.124 2.874-2.798 2.874h-0.237c-1.746 0-2.965-1.181-2.965-2.874zM25 11c-0.552 0-1 0.448-1 1v4.159c0 5.95-2.124 8.842-6.492 8.842h-2.973c-5.713 0-6.535-4.808-6.535-8.841v-4.159c0-0.552-0.448-1-1-1s-1 0.448-1 1v4.159c0 6.89 2.872 10.841 8.535 10.841h0.465v3h-5c-0.552 0-1 0.448-1 1s0.448 1 1 1h12c0.552 0 1-0.448 1-1s-0.448-1-1-1h-5v-3h0.508c3.874 0 8.492-1.881 8.492-10.842v-4.159c0-0.552-0.448-1-1-1z"></path>
+    + </svg>
+
+    File: tts-demo/jsconfig.json
+    + {
+    +   "compilerOptions": {
+    +     "paths": {
+    +       "@/*": ["./*"]
+    +     }
+    +   }
+    + }
+
+    File: tts-demo/modals/ErrorPopup.js
+    + import styles from "@/styles/ErrorPopup.module.css";
+    + 
+    + export default function ErrorPopup({ message, onClose }) {
+    +   return (
+    +     <div className={styles.container}>
+    +       <div className={styles.content}>
+    +         <p>{message}</p>
+    +         <button onClick={onClose}>Close</button>
+    +       </div>
+    +     </div>
+    +   );
+    + }
+
+    File: tts-demo/next.config.js
+    + /** @type {import('next').NextConfig} */
+    + const nextConfig = {
+    +   reactStrictMode: true,
+    + }
+    + 
+    + module.exports = nextConfig
+
+    File: tts-demo/package.json
+    + {
+    +   "name": "tts-demo",
+    +   "version": "0.1.0",
+    +   "private": true,
+    +   "scripts": {
+    +     "dev": "next dev",
+    +     "build": "next build",
+    +     "start": "next start",
+    +     "lint": "next lint"
+    +   },
+    +   "dependencies": {
+    +     "next": "13.4.7",
+    +     "react": "18.2.0",
+    +     "react-dom": "18.2.0"
+    +   }
+    + }
+
+    File: tts-demo/pages/_app.js
+    + import '@/styles/globals.css'
+    + 
+    + export default function App({ Component, pageProps }) {
+    +   return <Component {...pageProps} />
+    + }
+
+    File: tts-demo/pages/_document.js
+    + import { Html, Head, Main, NextScript } from 'next/document'
+    + 
+    + export default function Document() {
+    +   return (
+    +     <Html lang="en">
+    +       <Head />
+    +       <body>
+    +         <Main />
+    +         <NextScript />
+    +       </body>
+    +     </Html>
+    +   )
+    + }
+
+    File: tts-demo/pages/api/hello.js
+    + // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+    + 
+    + export default function handler(req, res) {
+    +   res.status(200).json({ name: 'John Doe' })
+    + }
+
+    File: tts-demo/pages/index.js
+    + import Head from "next/head";
+    + import { Inter, Miriam_Libre } from "next/font/google";
+    + import styles from "@/styles/Home.module.css";
+    + import { useEffect, useState } from "react";
+    + import ErrorPopup from "@/modals/ErrorPopup";
+    + import microphone from "@/assets/mic.svg";
+    + import Image from "next/image";
+    + 
+    + const inter = Inter({ subsets: ["latin"] });
+    + 
+    + export default function Home() {
+    +   const [error, setError] = useState(false);
+    +   const [recognition, setRecognition] = useState(null);
+    +   const [isListening, setIsListening] = useState(false);
+    +   const [finalTranscript, setFinalTranscript] = useState("");
+    +   const [interimTranscript, setInterimTranscript] = useState("");
+    + 
+    +   useEffect(() => {
+    +     if (!("webkitSpeechRecognition" in window)) {
+    +       setError(true);
+    +     } else {
+    +       setError(false);
+    +       setRecognition(new window.webkitSpeechRecognition());
+    +     }
+    +   }, []);
+    + 
+    +   useEffect(() => {
+    +     if (recognition) {
+    +       recognition.continuous = true;
+    +       recognition.interimResults = true;
+    + 
+    +       recognition.onstart = () => {
+    +         setIsListening(true);
+    +       };
+    + 
+    +       recognition.onerror = (event) => {
+    +         // Handle error
+    +       };
+    + 
+    +       recognition.onend = () => {
+    +         setIsListening(false);
+    +       };
+    + 
+    +       recognition.onresult = (event) => {
+    +         let final = "";
+    +         let interim = "";
+    +         for (let i = event.resultIndex; i < event.results.length; ++i) {
+    +           if (event.results[i].isFinal) {
+    +             final += event.results[i][0].transcript;
+    +           } else {
+    +             interim += event.results[i][0].transcript;
+    +           }
+    +         }
+    +         setFinalTranscript((prevState) => prevState + " " + final);
+    +         setInterimTranscript(interim);
+    +       };
+    +     }
+    +   }, [recognition]);
+    + 
+    +   const handleRecognition = () => {
+    +     if (recognition) {
+    +       if (isListening) {
+    +         recognition.stop();
+    +       } else {
+    +         // setFinalTranscript("");
+    +         setInterimTranscript("");
+    +         recognition.lang = "en-US";
+    +         recognition.start();
+    +       }
+    +     }
+    +   };
+    + 
+    +   const handleCloseError = () => {
+    +     setError(false);
+    +   };
+    + 
+    +   return (
+    +     <>
+    +       <Head>
+    +         <title>Web Speech Demo</title>
+    +         <link
+    +           rel="icon"
+    +           href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>"
+    +         />
+    +       </Head>
+    +       <main className={`${styles.main} ${inter.className}`}>
+    +         <div className={styles.textHeader}>
+    +           <h1 className={styles.title}>Web Speech Demo</h1>
+    +           <p className={styles.description}>
+    +             This is a quick demo of the Web Speech API. I think this should work
+    +             well for the SCENTER app. I think that we could also make a quick
+    +             custom rich text editor so that scent techs can also edit notes &
+    +             other stuff and have it look pretty, but for the beta version that's
+    +             not really necessary, but I think in the meantime just using the
+    +             text box we have is good enough.
+    +           </p>
+    +         </div>
+    + 
+    +         <div className={styles.container}>
+    +           <div
+    +             className={`${styles.imageContainer} ${
+    +               isListening && styles.active
+    +             }`}
+    +           >
+    +             <Image
+    +               src={microphone}
+    +               className={`${styles.microphone}`}
+    +               alt="microphone"
+    +               onClick={handleRecognition}
+    +             />
+    +           </div>
+    +           <p className={styles.text}>{finalTranscript}</p>
+    +           <p className={styles.iterim}>{interimTranscript}</p>
+    +         </div>
+    +         {error && (
+    +           <ErrorPopup
+    +             message="There was an error loading the Speech Recognition API."
+    +             onClose={handleCloseError}
+    +           />
+    +         )}
+    +       </main>
+    +     </>
+    +   );
+    + }
+
+    File: tts-demo/public/favicon.ico
+
+    File: tts-demo/public/next.svg
+    + <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 394 80"><path fill="#000" d="M262 0h68.5v12.7h-27.2v66.6h-13.6V12.7H262V0ZM149 0v12.7H94v20.4h44.3v12.6H94v21h55v12.6H80.5V0h68.7zm34.3 0h-17.8l63.8 79.4h17.9l-32-39.7 32-39.6h-17.9l-23 28.6-23-28.6zm18.3 56.7-9-11-27.1 33.7h17.8l18.3-22.7z"/><path fill="#000" d="M81 79.3 17 0H0v79.3h13.6V17l50.2 62.3H81Zm252.6-.4c-1 0-1.8-.4-2.5-1s-1.1-1.6-1.1-2.6.3-1.8 1-2.5 1.6-1 2.6-1 1.8.3 2.5 1a3.4 3.4 0 0 1 .6 4.3 3.7 3.7 0 0 1-3 1.8zm23.2-33.5h6v23.3c0 2.1-.4 4-1.3 5.5a9.1 9.1 0 0 1-3.8 3.5c-1.6.8-3.5 1.3-5.7 1.3-2 0-3.7-.4-5.3-1s-2.8-1.8-3.7-3.2c-.9-1.3-1.4-3-1.4-5h6c.1.8.3 1.6.7 2.2s1 1.2 1.6 1.5c.7.4 1.5.5 2.4.5 1 0 1.8-.2 2.4-.6a4 4 0 0 0 1.6-1.8c.3-.8.5-1.8.5-3V45.5zm30.9 9.1a4.4 4.4 0 0 0-2-3.3 7.5 7.5 0 0 0-4.3-1.1c-1.3 0-2.4.2-3.3.5-.9.4-1.6 1-2 1.6a3.5 3.5 0 0 0-.3 4c.3.5.7.9 1.3 1.2l1.8 1 2 .5 3.2.8c1.3.3 2.5.7 3.7 1.2a13 13 0 0 1 3.2 1.8 8.1 8.1 0 0 1 3 6.5c0 2-.5 3.7-1.5 5.1a10 10 0 0 1-4.4 3.5c-1.8.8-4.1 1.2-6.8 1.2-2.6 0-4.9-.4-6.8-1.2-2-.8-3.4-2-4.5-3.5a10 10 0 0 1-1.7-5.6h6a5 5 0 0 0 3.5 4.6c1 .4 2.2.6 3.4.6 1.3 0 2.5-.2 3.5-.6 1-.4 1.8-1 2.4-1.7a4 4 0 0 0 .8-2.4c0-.9-.2-1.6-.7-2.2a11 11 0 0 0-2.1-1.4l-3.2-1-3.8-1c-2.8-.7-5-1.7-6.6-3.2a7.2 7.2 0 0 1-2.4-5.7 8 8 0 0 1 1.7-5 10 10 0 0 1 4.3-3.5c2-.8 4-1.2 6.4-1.2 2.3 0 4.4.4 6.2 1.2 1.8.8 3.2 2 4.3 3.4 1 1.4 1.5 3 1.5 5h-5.8z"/></svg>
+
+    File: tts-demo/public/vercel.svg
+    + <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 283 64"><path fill="black" d="M141 16c-11 0-19 7-19 18s9 18 20 18c7 0 13-3 16-7l-7-5c-2 3-6 4-9 4-5 0-9-3-10-7h28v-3c0-11-8-18-19-18zm-9 15c1-4 4-7 9-7s8 3 9 7h-18zm117-15c-11 0-19 7-19 18s9 18 20 18c6 0 12-3 16-7l-8-5c-2 3-5 4-8 4-5 0-9-3-11-7h28l1-3c0-11-8-18-19-18zm-10 15c2-4 5-7 10-7s8 3 9 7h-19zm-39 3c0 6 4 10 10 10 4 0 7-2 9-5l8 5c-3 5-9 8-17 8-11 0-19-7-19-18s8-18 19-18c8 0 14 3 17 8l-8 5c-2-3-5-5-9-5-6 0-10 4-10 10zm83-29v46h-9V5h9zM37 0l37 64H0L37 0zm92 5-27 48L74 5h10l18 30 17-30h10zm59 12v10l-3-1c-6 0-10 4-10 10v15h-9V17h9v9c0-5 6-9 13-9z"/></svg>
+
+    File: tts-demo/styles/ErrorPopup.module.css
+    + .container {
+    +     position: fixed;
+    +     top: 0;
+    +     left: 0;
+    +     width: 100%;
+    +     height: 100%;
+    +     display: flex;
+    +     justify-content: center;
+    +     align-items: center;
+    +     background-color: rgba(0, 0, 0, 0.5);
+    +     z-index: 9999;
+    +   }
+    + 
+    + 
+    +   
+    +   .content {
+    +     text-align: center;
+    +     background-color: #fff;
+    +     padding: 2rem;
+    +     border-radius: 0.25rem;
+    +   }
+    +   
+    +   .content > p {
+    +     font-size: 1.5rem;
+    +     font-weight: 600;
+    +     color: #333;
+    +   }
+    +   
+    +   .content > button {
+    +     margin-top: 1rem;
+    +     padding: 0.5rem 1rem;
+    +     border: 1px solid #333;
+    +     border-radius: 0.25rem;
+    +     background-color: #fff;
+    +     font-size: 1rem;
+    +     font-weight: 600;
+    +     color: #333;
+    +     cursor: pointer;
+    +   }
+    +   
+
+    File: tts-demo/styles/Home.module.css
+    + .main {
+    +   display: flex;
+    +   flex-direction: column;
+    +   justify-content: space-evenly;
+    +   align-items: center;
+    +   padding: 6rem;
+    +   min-height: 100vh;
+    + }
+    + 
+    + .textHeader {
+    +   text-align: center;
+    +   display: flex;
+    +   flex-direction: column;
+    +   align-items: center;
+    +   justify-content: center;
+    +   gap: 1rem;
+    +   max-width: 50%;
+    + }
+    + 
+    + .description {
+    +   line-height: 1.5rem;
+    + }
+    + .container {
+    +   padding: 2rem;
+    +   border-radius: 6px;
+    +   background-color: white;
+    +   display: flex;
+    +   flex-direction: row;
+    +   align-items: center;
+    +   gap: 2rem;
+    + }
+    + .imageContainer {
+    +   padding: 1rem;
+    +   border-radius: 50%;
+    +   border: 1px solid black;
+    +   background-color: #f5f5f5;
+    +   opacity: 1;
+    +   transition: background-color 0.5s ease-in-out;
+    + }
+    + 
+    + 
+    + .microphone {
+    +   width: 2rem;
+    +   height: 2rem;
+    +   cursor: pointer;
+    +   user-select: none;
+    + }
+    + 
+    + /* target the stroke of the svg */
+    + .active {
+    +   background-color: tomato;
+    +   animation: pulse 2s infinite;
+    +   transition: background-color 0.5s ease-in-out;
+    + }
+    + 
+    + @keyframes pulse {
+    +   0% {
+    +     background-color: #ff6347;
+    +     transform: scale(1);
+    +   }
+    +   50% {
+    +     background-color: #ff634750;
+    +     transform: scale(1.02);
+    +   }
+    +   100% {
+    +     background-color: #ff6347;
+    +     transform: scale(1);
+    +   }
+    + }
+    + 
+    + 
+    + .text {
+    +   color: black;
+    +   
+    + }
+    + 
+    + .iterim {
+    +   color: #ccc;
+    + }
+    + 
+    + .text::selection {
+    +   background-color: #f5f5f5;
+    + }
+
+    File: tts-demo/styles/globals.css
+    + :root {
+    +   --max-width: 1100px;
+    +   --border-radius: 12px;
+    +   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    +     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    +     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+    + 
+    +   --foreground-rgb: 0, 0, 0;
+    +   --background-start-rgb: 214, 219, 220;
+    +   --background-end-rgb: 255, 255, 255;
+    + 
+    +   --primary-glow: conic-gradient(
+    +     from 180deg at 50% 50%,
+    +     #16abff33 0deg,
+    +     #0885ff33 55deg,
+    +     #54d6ff33 120deg,
+    +     #0071ff33 160deg,
+    +     transparent 360deg
+    +   );
+    +   --secondary-glow: radial-gradient(
+    +     rgba(255, 255, 255, 1),
+    +     rgba(255, 255, 255, 0)
+    +   );
+    + 
+    +   --tile-start-rgb: 239, 245, 249;
+    +   --tile-end-rgb: 228, 232, 233;
+    +   --tile-border: conic-gradient(
+    +     #00000080,
+    +     #00000040,
+    +     #00000030,
+    +     #00000020,
+    +     #00000010,
+    +     #00000010,
+    +     #00000080
+    +   );
+    + 
+    +   --callout-rgb: 238, 240, 241;
+    +   --callout-border-rgb: 172, 175, 176;
+    +   --card-rgb: 180, 185, 188;
+    +   --card-border-rgb: 131, 134, 135;
+    + }
+    + 
+    + @media (prefers-color-scheme: dark) {
+    +   :root {
+    +     --foreground-rgb: 255, 255, 255;
+    +     --background-start-rgb: 0, 0, 0;
+    +     --background-end-rgb: 0, 0, 0;
+    + 
+    +     --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
+    +     --secondary-glow: linear-gradient(
+    +       to bottom right,
+    +       rgba(1, 65, 255, 0),
+    +       rgba(1, 65, 255, 0),
+    +       rgba(1, 65, 255, 0.3)
+    +     );
+    + 
+    +     --tile-start-rgb: 2, 13, 46;
+    +     --tile-end-rgb: 2, 5, 19;
+    +     --tile-border: conic-gradient(
+    +       #ffffff80,
+    +       #ffffff40,
+    +       #ffffff30,
+    +       #ffffff20,
+    +       #ffffff10,
+    +       #ffffff10,
+    +       #ffffff80
+    +     );
+    + 
+    +     --callout-rgb: 20, 20, 20;
+    +     --callout-border-rgb: 108, 108, 108;
+    +     --card-rgb: 100, 100, 100;
+    +     --card-border-rgb: 200, 200, 200;
+    +   }
+    + }
+    + 
+    + * {
+    +   box-sizing: border-box;
+    +   padding: 0;
+    +   margin: 0;
+    + }
+    + 
+    + html,
+    + body {
+    +   max-width: 100vw;
+    +   overflow-x: hidden;
+    + }
+    + 
+    + body {
+    +   color: rgb(var(--foreground-rgb));
+    +   background: linear-gradient(
+    +       to bottom,
+    +       transparent,
+    +       rgb(var(--background-end-rgb))
+    +     )
+    +     rgb(var(--background-start-rgb));
+    + }
+    + 
+    + a {
+    +   color: inherit;
+    +   text-decoration: none;
+    + }
+    + 
+    + @media (prefers-color-scheme: dark) {
+    +   html {
+    +     color-scheme: dark;
+    +   }
+    + }
+
+
+    Code Removed:
+        File: .gitignore
+
+    File: tts-demo/.gitignore
+
+    File: tts-demo/README.md
+
+    File: tts-demo/assets/mic.svg
+
+    File: tts-demo/jsconfig.json
+
+    File: tts-demo/modals/ErrorPopup.js
+
+    File: tts-demo/next.config.js
+
+    File: tts-demo/package.json
+
+    File: tts-demo/pages/_app.js
+
+    File: tts-demo/pages/_document.js
+
+    File: tts-demo/pages/api/hello.js
+
+    File: tts-demo/pages/index.js
+
+    File: tts-demo/public/favicon.ico
+
+    File: tts-demo/public/next.svg
+
+    File: tts-demo/public/vercel.svg
+
+    File: tts-demo/styles/ErrorPopup.module.css
+
+    File: tts-demo/styles/Home.module.css
+
+    File: tts-demo/styles/globals.css
+
+
+
 ### charliemeyer2000: 'documentation on relay & config' @ 06/22/2023, 18:01:10 to assorted-scenthound-things
 
     Code Added:
