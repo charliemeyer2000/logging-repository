@@ -1,3 +1,17 @@
+### charliemeyer2000: 'stuff' @ 07/05/2023, 13:15:40 to assorted-scenthound-things
+
+    Code Added:
+        File: .gitignore
+    + suggestions_reformatting/shortcuts.csv
+    + suggestions_reformatting/output.ts
+    + suggestions_reformatting/suggestions.ts
+
+
+    Code Removed:
+        File: .gitignore
+
+
+
 ### charliemeyer2000: 'quick web speech demo' @ 06/28/2023, 15:18:49 to assorted-scenthound-things
 
     Code Added:
