@@ -1,3 +1,12 @@
+### charliemeyer2000: 'meeting w/jim about data sources' @ 07/07/2023, 12:42:50 to assorted-scenthound-things
+The following files were modified: 
+- .gitignore
+- suggestions_reformatting/.DS_Store
+
+GPT Summary: 
+ > `This commit made changes to the .gitignore file and added a notes/meeting-with-jim.md file. The notes file discussed various data sources related to dog breeds, such as the Humane Society of the United States, European Kennel Clubs, Scenthound DNA,`
+
+
 ### charliemeyer2000: 'stuff' @ 07/05/2023, 13:15:40 to assorted-scenthound-things
 The following files were modified: 
 - .gitignore
