@@ -1,3 +1,89 @@
+### charliemeyer2000: 'meeting w/jim about data sources' @ 07/07/2023, 12:42:50 to assorted-scenthound-things
+
+    Code Added:
+        File: .gitignore
+    + suggestions_reformatting/.DS_Store
+    + 
+
+    File: notes/meeting-with-jim.md
+    + # Meeting w/Jim & Andy
+    + 
+    + humane society of the united states (mixed/rescue dog type stuff). Not as friendly to data, but not as restrictive (copyright, etc). 
+    + 
+    + AKC comes up with breed standard... so that's kind of weird why you can't copyright the information. 
+    + 
+    + ## Breed Organizations (other)
+    + 
+    + European orgs - 
+    + * AKC stolen from German Kennel Society? 
+    +     * Have multiple kennel club(s)
+    + * AKC data repackaged into somewhere else?
+    + 
+    + ## Scenthound DNA
+    + 
+    + * Breed-specific DNA stuff with size, etc. (purebreds only)
+    + 
+    + ## Books
+    + 
+    + "Dogs" - colored, pretty. has height, average weight, etc. 
+    + 
+    + ## Veterans Schools (VT, etc)
+    + 
+    + * Veterinary schools w/professors that have a study area of something genetic-related in dogs. 
+    + * VT Prof - rare colors & breeds of animals, including dogs. 
+    + * SOmeone dooming research in genetic testing in dogs, find a prof that is a data list of things that a breed carries. 
+    + * American College of Veterinary Dermatology, Dentistry
+    + 
+    + ## OFA - Orthopedic Foundation for Animals
+    + 
+    + hips, elbows, etc.
+    + Also has CAER
+    + American college of veterinary ophthalmologists
+    + 
+    + ## Penn Hip
+    + 
+    + * Hip dysplasia
+    + 
+    + ## Big Journals
+    + 
+    + * Journal of the American Veterinary Medical Association
+    + * AVMA.org - American Veterinary Medical Association
+    + * Veterinary Information Network
+    +     * more medical stuff (not breed-specific)
+    +     * we probably won't have any access to it since we're not vets. 
+    + * American Journal of Veterinary Research
+    +     * Animal health studies database. 
+    +     * get a contact (?)
+    + 
+    + ## Witness, Embark, etc
+    + 
+    + DNA companies that have data. Companies may be willing to share DNA-based data. 
+    + 
+    + ## Published Books
+    + 
+    + * "How to select a puppy" - by the American Kennel Club
+    + * "how to select a purebred for me"
+    + * "the complete dog book" - akc
+    + 
+    + ## Big words
+    + 
+    + - atopy - allergies
+    + 
+    + 
+    + 
+
+    File: suggestions_reformatting/.DS_Store
+
+
+    Code Removed:
+        File: .gitignore
+
+    File: notes/meeting-with-jim.md
+
+    File: suggestions_reformatting/.DS_Store
+
+
+
 ### charliemeyer2000: 'stuff' @ 07/05/2023, 13:15:40 to assorted-scenthound-things
 
     Code Added:
