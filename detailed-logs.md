@@ -1,3 +1,79 @@
+### charliemeyer2000: 'web app thing' @ 07/10/2023, 16:40:22 to assorted-scenthound-things
+
+    Code Added:
+        File: notes/meeting-with-jim.md
+    + ## Other sites
+    + 
+    + - [Evolutionary Anthropology](https://evolutionaryanthropology.duke.edu/research/dogs)
+    + 
+    + 
+    + 
+
+    File: notes/web-app.md
+    + # Web App
+    + 
+    + Talks about trial bookings, filling out a Zoho form (collecting lead information) which goes to Zoho CRM. They then go to the web app, fill out a form, and then books in myTime. 
+    + 
+    + Effectively all determined by url parameters. 
+    + 
+    + Collects payment information. Doesn't add membership to client, it sends an email to the scenter and the scenter adds it manually. 
+    + 
+    + ## Founding Memberships, Trial booking, Referrals
+    + 
+    + ### Referrals
+    + 
+    + Referral link that goes to a landing page that goes to the web app that inputs 
+    + 
+    + 
+    + ### What we want to do
+    + 
+    + Trial booking rollout to 5 other locations. We want to add:
+    + 
+    + 1. Adding a modal to the end of the process to remind them to bring vaccination proof.
+    +     * Double reminder to bring vaccination proof (see photo of what petco does).
+    + 1. Founding memberships - send an eamil to the scenter inbox, saying "this member 
+    + 1. Client label in myTime
+    + 
+    + ### Priority
+    + 
+    + 1. CRM Field
+    + 1. Modal
+    + 1. Email notifying scenter inbox of a new trial booking
+    +     * works on founding memebrship, needs to work on trial booking
+    + 1. MyTime Label
+    +     * needs to work on trial booking
+    + 
+    + 
+    + ### Login Information
+    + 
+    + * Zoho check chats with Freddy and Meiling
+    +     * If we don't have permissions let Andy know.
+    + * Reach out to Brian to have him quickly go over web app codebase. 
+    + 
+    + 
+    + ### Priority against Scenter App
+    + 
+    + * Focus on web app this week, re-evaluate at the end of this week. 
+    + 
+    + 
+    + ### COnfluence Space
+    + 
+    + "Operation document" - contains:
+    + 
+    + * SCENTHOUND-OS space -> operation document -> recodrded videos about the web app. 
+    + 
+    + 
+    + ### Hello-bar
+    + 
+
+
+    Code Removed:
+        File: notes/meeting-with-jim.md
+
+    File: notes/web-app.md
+
+
+
 ### charliemeyer2000: 'added more tools & languages' @ 07/07/2023, 15:05:56 to charliemeyer2000
 
     Code Added:
