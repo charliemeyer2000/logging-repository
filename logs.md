@@ -1,3 +1,13 @@
+### charliemeyer2000: 'web app thing' @ 07/10/2023, 16:40:21 to assorted-scenthound-things
+The following files were modified: 
+- notes/meeting-with-jim.md
+
+GPT Summary: 
+ > `+ 
+
+This commit makes changes to two files, notes/meeting-with-jim.md and notes/web-app.md. The changes to notes/meeting-with-jim.md add a link to the Evolutionary Anthropology website. The changes to notes`
+
+
 ### charliemeyer2000: 'added more tools & languages' @ 07/07/2023, 15:05:55 to charliemeyer2000
 The following files were modified: 
 - README.md
