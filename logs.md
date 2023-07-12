@@ -1,3 +1,17 @@
+### charliemeyer2000: 'resources 4 recommendation system & web app notes' @ 07/12/2023, 17:40:28 to assorted-scenthound-things
+The following files were modified: 
+- notes/web-app.md
+
+GPT Summary: 
+ > `+ 1. Veterinary Journals
+    + 1. Veterinary Associations
+    + 1. Veterinary Conferences
+    + 1. Veterinary Textbooks
+    + 1. Veterinary Databases
+
+This commit adds a list of resources for documentation on dogs for building a recommendation system and web app. The`
+
+
 ### charliemeyer2000: 'web app thing' @ 07/10/2023, 16:40:21 to assorted-scenthound-things
 The following files were modified: 
 - notes/meeting-with-jim.md
