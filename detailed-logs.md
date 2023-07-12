@@ -1,3 +1,91 @@
+### charliemeyer2000: 'resources 4 recommendation system & web app notes' @ 07/12/2023, 17:40:29 to assorted-scenthound-things
+
+    Code Added:
+        File: notes/list-of-resources.md
+    + # List of Resources
+    + 
+    + List of resources for documentation on dogs for building the reccomendation system/LLM.
+    + 
+    + ## Scenthound
+    + 
+    + 1. [Breed Book](https://learnerresources.s3.eu-west-1.amazonaws.com/113354/learner_resource_uploads/ad0a80619bee20bca42f595a21/Breed%20Book%202.2.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQZVLRHER6MLZQEAI%2F20230712%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230712T205749Z&X-Amz-Expires=30&X-Amz-SignedHeaders=host&X-Amz-Signature=3fd7bbbfdb504d69f450b391a11909e8f5472819cd6e2a5e54aea23929f44bfd)
+    +     - This contains both breed information and information for suggestions for pet products based on the breed.
+    +     - This will be SUPER important to create houndswell recommendations. This could almost be done by hand, but it would be a lot of work. 
+    + 1. Scenthound Database(s) **ask manaar to send csv's to me**
+    +     - Gather a list of Scentchecks & purhcase history based on that scentcheck (if data is good enough, it's possible to train a model to predict a product based on the scentcheck, or just use the scentcheck to narrow down the list of products to suggest with sklearn)
+    +     - Get purchase history, scentcheck data, feature details
+    +     - other relevant/helpful information
+    + 1. Others?
+    + 
+    + ## From Jim
+    + 
+    + I have a very stream-of-consciousness from the meeting with him, this is just a super succinct and heavily compacted version of it. Also, much of what Jim mentioned was also provided by Dr. Krane, so I've avoided repeating information.
+    + 
+    + 1. AKC Website (if permissible)
+    + 1. Veterinary Schools, specifically VT
+    + 1. Other european/international kennel clubs, which the AKC may have data from
+    +     - 
+    + 1. Books:
+    +     - "The Complete Dog Book", AKC (i can't find a pdf online)
+    +         * i found this [super old version](https://ia800308.us.archive.org/13/items/completebookofdo00leig/completebookofdo00leig.pdf) though? 
+    +     - ["Tips for Responsible Dog Owners"](http://images.akc.org/pdf/ebook/Responsible_Dog_Owners.pdf)
+    + 1. - [Evolutionary Anthropology](https://evolutionaryanthropology.duke.edu/research/dogs)
+    + 
+    + ## From Dr. Krane
+    + 
+    + 1. [Veternary Partner](https://veterinarypartner.vin.com/default.aspx?pid=19239&id=)
+    +     - Contains information on diseases/conditions, care, toxicities and behavior of dogs. 
+    + 1. [Pet Place](https://www.petplace.com/)
+    +     - More of an article-based, consumer-friendly site. Definitely more "our speed," as its more general recommendations.
+    + 1. [Plumb's](https://plumbs.com/)
+    +     - Veterinary drug handbook. Contains information on drugs, dosages, etc.
+    +     - They have a free trial but also a subscription service, as well. This contains pretty specific information about drugs and dosages. Some of the information may be a little too specific for our purposes, but it couldn't hurt to have our model be as accurate as possible.
+    +     - Look into their open-sourced data, as well:
+    +         * [Plumb's Veterinary Drug Handbook](resources/Plumb-s-Veterinary-Drug-Handbook-Sixth-Edition_2.pdf)
+    + 1. [AAHA](https://www.aaha.org/)
+    +     - American Animal Hospital Association
+    +     - Contains information on veterinary care, etc.
+    +     - Also pretty scientific, but look into open source resources they offer (there's a lot of them on their site to look through):
+    +         * [AAHA Dental Guidelines](https://www.aaha.org/globalassets/02-guidelines/dental/aaha_dental_guidelines.pdf)
+    +         * [AAHA Nutrition and Weight Management](https://www.aaha.org/globalassets/02-guidelines/2021-nutrition-and-weight-management/resourcepdfs/new-2021-aaha-nutrition-and-weight-management-guidelines-with-ref.pdf)
+    +         * [AAHA Behavior Management Guidelines](https://www.aaha.org/globalassets/02-guidelines/behavior-management/2015_aaha_canine_and_feline_behavior_management_guidelines_final.pdf)
+    + 1. [ACVS](https://www.acvs.org/)
+    +     - QUite specific documentation on various surgical procedures, etc. If you search by "canine" you can find some dog-specific articles about various procedures, such as [hip dysplasia](https://www.acvs.org/small-animal/canine-hip-dysplasia/), etc.
+    + 1. [ACVN](https://acvn.org/)
+    +     - MOstly a certification board, couldn't find much information from their site. 
+    +     - [FAQ](https://acvn.org/frequently-asked-questions/) has some helpful tidbits
+    + 1. [Whole Dog Journal](https://www.whole-dog-journal.com/)
+    +     - Dog journal/magazine, contains information that would be helpful for consumers (not too specific, not too general). 
+    +     - Contains info on dog food, behavior, training, health, care, and lifestyle.
+    +     - Will be a pain in the *** to scrape, but is incredibly good for what we're looking for. 
+    + 1. [OFA](https://ofa.org/chic-programs/)
+    +     - Contains some odd infomration about various dog screenings, etc. From what i've seen, the csv's and pdf's aren't very helpful at all.
+    + 1. [AVMA](https://www.avma.org/)
+    +     - Not super helpful except for [this database of studies](https://ebusiness.avma.org/aahsd/study_search.aspx). If we wanted to, we could scrape this against a list of common dog diseases/conditions and see if we can find any studies that would be helpful for our model.
+    + 1. [ASPCA](https://www.aspca.org/)
+    +     - Contains information on animal poison control, animal cruelty, etc. 
+    +     - Has a section on dogs with information like:
+    +         * [General Dog Care](https://www.aspca.org/pet-care/dog-care/general-dog-care)
+    +         * [Diy Canine Enrichment](https://www.aspca.org/pet-care/dog-care/canine-diy-enrichment)
+    +         * 5-6 more articles that are pretty general and consumer-friendly
+    + 
+    + 
+
+    File: notes/resources/Plumb-s-Veterinary-Drug-Handbook-Sixth-Edition_2.pdf
+
+    File: notes/web-app.md
+
+
+    Code Removed:
+        File: notes/list-of-resources.md
+
+    File: notes/resources/Plumb-s-Veterinary-Drug-Handbook-Sixth-Edition_2.pdf
+
+    File: notes/web-app.md
+    - ### Hello-bar
+
+
+
 ### charliemeyer2000: 'web app thing' @ 07/10/2023, 16:40:22 to assorted-scenthound-things
 
     Code Added:
