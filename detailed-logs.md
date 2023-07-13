@@ -1,3 +1,14 @@
+### charliemeyer2000: 'used pandoc to make pdf, not necessary lol' @ 07/13/2023, 11:25:46 to assorted-scenthound-things
+
+    Code Added:
+        File: notes/list-of-resources.pdf
+
+
+    Code Removed:
+        File: notes/list-of-resources.pdf
+
+
+
 ### charliemeyer2000: 'resources 4 recommendation system & web app notes' @ 07/12/2023, 17:40:29 to assorted-scenthound-things
 
     Code Added:
