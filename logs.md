@@ -1,3 +1,9 @@
+### charliemeyer2000: 'used pandoc to make pdf, not necessary lol' @ 07/13/2023, 11:25:45 to assorted-scenthound-things
+No files were modified in this commit.
+GPT Summary: 
+ > `This commit removed the unnecessary file notes/list-of-resources.pdf, which was generated using pandoc.`
+
+
 ### charliemeyer2000: 'resources 4 recommendation system & web app notes' @ 07/12/2023, 17:40:28 to assorted-scenthound-things
 The following files were modified: 
 - notes/web-app.md
