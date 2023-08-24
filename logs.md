@@ -1,3 +1,11 @@
+### charliemeyer2000: 'test to make sure gh token works.' @ 08/24/2023, 20:56:06 to charliemeyer2000
+The following files were modified: 
+- README.md
+
+GPT Summary: 
+ > A link to the Logging Repository was added to the README.md file, replacing a link to the Repo of my Changes.
+
+
 ### charliemeyer2000: 'test change for environ vars' @ 08/24/2023, 20:39:09 to charliemeyer2000
 The following files were modified: 
 - README.md
