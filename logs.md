@@ -1,3 +1,11 @@
+### charliemeyer2000: 'asdf' @ 08/24/2023, 20:22:17 to charliemeyer2000
+The following files were modified: 
+- README.md
+
+GPT Summary: 
+ > A link to a repository was added to the README.md file and an existing link was removed.
+
+
 ### charliemeyer2000: 'used pandoc to make pdf, not necessary lol' @ 07/13/2023, 11:25:45 to assorted-scenthound-things
 No files were modified in this commit.
 GPT Summary: 
