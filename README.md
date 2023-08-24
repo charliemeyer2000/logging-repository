@@ -21,6 +21,7 @@ Then, upload the `.zip` file to AWS Lambda and configure the webhook endpoint to
 
 Make sure you have created a lambda function and integrated it into a `POST` request to API gateway, and have properly configured the DNS settings and certificates. There's some other configuration necessary with DNS stuff, certificates and others that you can figure out. I used [this tutorial](https://www.youtube.com/watch?v=ESei6XQ7dMg) to get started and figured out the rest myself.
 
+Additionally, make sure to add the proper GitHub/OpenAI tokens accordingly through Lambda -> Configuration -> Environment Variables and reference them in your code like I did. 
 
 
 
