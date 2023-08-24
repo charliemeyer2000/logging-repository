@@ -1,3 +1,16 @@
+### charliemeyer2000: 'changed website again' @ 08/24/2023, 21:03:13 to charliemeyer2000
+
+    Code Added:
+        File: README.md
+    +             <li><a href="https://hymnai.net" target="_blank" rel="noopener noreferrer" style="color: #FFD700">HymnAI</a></li>
+
+
+    Code Removed:
+        File: README.md
+    -             <li><a href="https://hymn.market" target="_blank" rel="noopener noreferrer" style="color: #FFD700">HymnAI</a></li>
+
+
+
 ### web-flow: 'changed hymn website' @ 08/24/2023, 21:01:52 to charliemeyer2000
 
     Code Added:
