@@ -4,13 +4,25 @@ This repository contains logs and detailed logs of any commits I make that are s
 
 ## How it works
 
-I currently just have a small flask app that runs on port 9000, and am using `ngrok` to forward a public facing endpoint to that localhost. Right now it is just running forever on my Raspberry Pi, but in the future I might make this run on a sub-domain of my [personal website 👋](https://charliemeyer.xyz), if i can figure out how to do that! 
-
-Using the GitHub API, I get information about the commit that was made, look up and do some parsing of the adds/removals of the commit, and then use the GPT 3.5 API to generate a summary of the commit. I then use the GitHub API to edit the `logs.md` file and add the new commit to the top of the file. I also add the detailed logs to the `detailed-logs.md` file.
+Using AWS API Gateway and AWS Lambda, I have a webhook endpoint at `api.charliemeyer.xyz` that is triggered by a GitHub webhook. This endpoint then triggers a lambda function (see `code/lamnda-function.py`) that then edits the `logs.md` and `detailed-logs.md` files on this repository.
 
 ## Do it yourself 
 
-The code for the actual flask api is not on this repository since it has my GitHub and OpenAI keys on the script too (and is on my Raspberry Pi🥧 , and i'm too lazy to add it 🤷), but if you want me to share you the code, just email me at [charlie@charliemeyer.xyz](mailto:charlie@charliemeyer.xyz) and I can hit you up. 
+The code for the lambda function is in the folder `code.` All you need to do is create a `.zip` file according to [these instructions](https://docs.aws.amazon.com/lambda/latest/dg/python-package.html), but a summary is:
+
+1. Create a new folder called "package." in your working directory.
+1. For this use-case, i just had to install the `openai` package, so I ran did `pip install --target ./package openai`. If you have a `requirements.txt` file from a venv or want to do something different, install the packages you need into the `package` folder from requirements.txt with `pip install -r requirements.txt --target ./package`. 
+1. `cd package`
+1. `zip -r ../my_deployment_package.zip .`
+1. `cd ..`
+1. `zip -g my_deployment_package.zip lambda_function.py`
+
+Then, upload the `.zip` file to AWS Lambda and configure the webhook endpoint to point to the API Gateway endpoint.
+
+Make sure you have created a lambda function and integrated it into a `POST` request to API gateway, and have properly configured the DNS settings and certificates. There's some other configuration necessary with DNS stuff, certificates and others that you can figure out. I used [this tutorial](https://www.youtube.com/watch?v=ESei6XQ7dMg) to get started and figured out the rest myself.
+
+
+
 
 
 
