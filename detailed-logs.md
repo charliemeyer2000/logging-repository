@@ -1,3 +1,16 @@
+### charliemeyer2000: 'test change for environ vars' @ 08/24/2023, 20:39:10 to charliemeyer2000
+
+    Code Added:
+        File: README.md
+    +             <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" style="color: #FFD700;">A Mystery Project</a></li>
+
+
+    Code Removed:
+        File: README.md
+    -             <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" style="color: #FFD700;">Mystery Project</a></li>
+
+
+
 ### charliemeyer2000: 'asdf' @ 08/24/2023, 20:29:32 to charliemeyer2000
 
     Code Added:
