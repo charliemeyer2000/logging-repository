@@ -9,7 +9,7 @@ import os
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 # Configure GitHub token
-GITHUB_TOKEN =
+GITHUB_TOKEN = os.environ.get("GH_KEY")
 
 def lambda_handler(event, context):
     payload = json.loads(event['body'])
