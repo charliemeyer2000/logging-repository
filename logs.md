@@ -1,3 +1,11 @@
+### charliemeyer2000: 'changed website again' @ 08/24/2023, 21:03:12 to charliemeyer2000
+The following files were modified: 
+- README.md
+
+GPT Summary: 
+ > A link to HymnAI was added to the README.md file, replacing a link to Hymn.market.
+
+
 ### web-flow: 'changed hymn website' @ 08/24/2023, 21:01:51 to charliemeyer2000
 The following files were modified: 
 - README.md
