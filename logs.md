@@ -1,3 +1,11 @@
+### charliemeyer2000: 'test change for environ vars' @ 08/24/2023, 20:39:09 to charliemeyer2000
+The following files were modified: 
+- README.md
+
+GPT Summary: 
+ > A link to a Mystery Project was added to the README.md file.
+
+
 ### charliemeyer2000: 'asdf' @ 08/24/2023, 20:29:32 to charliemeyer2000
 The following files were modified: 
 - README.md
