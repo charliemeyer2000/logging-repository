@@ -1,3 +1,16 @@
+### web-flow: 'changed hymn website' @ 08/24/2023, 21:01:52 to charliemeyer2000
+
+    Code Added:
+        File: README.md
+    +  Welcome to my GitHub! I'm Charlie Meyer, a full-time student at UVA who also loves to code things - full-stack applications, and ml models, and much more. I personally believe GitHub and personal websites are much better than LinkedIn to show off who you are & what you're passionate about. I have a LinkedIn, but I'd prefer you look here instead! There are tons of incredibly helpful resources including resources I've used throughout my coding journey, so check them out. Check out my website <a href="https://charliemeyer.xyz" target="_blank" rel="noopener noreferrer" style="color: #FFD700;">charliemeyer.xyz</a> and the startup i'm working on <a href="https://hymnai.net" target="_blank" rel="noopener noreferrer" style="color: #FFD700;"> hymnai.net </a> and email <a href="mailto:charlie@charliemeyer.xyz" style="color: #FFD700; " target="_blank" rel="noopener noreferrer">charlie@charliemeyer.xyz</a>  for any inquiries.
+
+
+    Code Removed:
+        File: README.md
+    -  Welcome to my GitHub! I'm Charlie Meyer, a full-time student at UVA who also loves to code things - full-stack applications, and ml models, and much more. I personally believe GitHub and personal websites are much better than LinkedIn to show off who you are & what you're passionate about. I have a LinkedIn, but I'd prefer you look here instead! There are tons of incredibly helpful resources including resources I've used throughout my coding journey, so check them out. Check out my website <a href="https://charliemeyer.xyz" target="_blank" rel="noopener noreferrer" style="color: #FFD700;">charliemeyer.xyz</a> and the startup i'm working on <a href="https://hymn.market" target="_blank" rel="noopener noreferrer" style="color: #FFD700;"> hymn.market </a> and email <a href="mailto:charlie@charliemeyer.xyz" style="color: #FFD700; " target="_blank" rel="noopener noreferrer">charlie@charliemeyer.xyz</a>  for any inquiries.
+
+
+
 ### charliemeyer2000: 'test change for environ vars' @ 08/24/2023, 20:39:10 to charliemeyer2000
 
     Code Added:
