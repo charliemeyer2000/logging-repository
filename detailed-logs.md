@@ -1,3 +1,16 @@
+### charliemeyer2000: 'asdf' @ 08/24/2023, 20:29:32 to charliemeyer2000
+
+    Code Added:
+        File: README.md
+    +             <li><a href="https://github.com/charliemeyer2000/logging-repository" target="_blank" rel="noopener noreferrer" style="color: #FFD700;">Repo of my Changes</a></li>
+
+
+    Code Removed:
+        File: README.md
+    -             <li><a href="https://github.com/charliemeyer2000/logging-repository" target="_blank" rel="noopener noreferrer" style="color: #FFD700;">Logging Repository</a></li>
+
+
+
 ### charliemeyer2000: 'used pandoc to make pdf, not necessary lol' @ 07/13/2023, 11:25:46 to assorted-scenthound-things
 
     Code Added:
