@@ -1,3 +1,14 @@
+### charliemeyer2000: 'sde notes + stuff' @ 08/28/2023, 19:25:40 to second-year
+The following files were modified: 
+- entp/notes/lecture-notes.md
+- personal-finance/notes/readings.md
+- sde/notes/lecture-notes.md
+- sde/notes/reading-notes.md
+
+GPT Summary: 
+ > This GitHub commit added files to the entp/notes/lecture-notes.md, personal-finance/notes/readings.md, sde/notes/images/GitCheatSheet.png, sde/notes/lecture-notes.md,
+
+
 ### charliemeyer2000: 'finished sde notes' @ 08/28/2023, 18:22:53 to second-year
 The following files were modified: 
 - sde/notes/reading-notes.md
