@@ -1,3 +1,13 @@
+### charliemeyer2000: 'finished sde notes' @ 08/28/2023, 18:22:53 to second-year
+The following files were modified: 
+- sde/notes/reading-notes.md
+
+GPT Summary: 
+ > git merge feature`
+
+This commit added two files, entp/notes/lecture-notes.md and sde/notes/reading-notes.md. The lecture-notes.md file contains lecture notes on topics such as what a business is, what innovation is, and what
+
+
 ### charliemeyer2000: 'started notes for sde on version control' @ 08/28/2023, 13:52:17 to second-year
 The following files were modified: 
 - sde/notes/reading-notes.md
