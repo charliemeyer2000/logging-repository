@@ -1,3 +1,14 @@
+### charliemeyer2000: 'one more ds store remove' @ 08/28/2023, 13:31:24 to second-year
+
+    Code Added:
+        File: personal-finance/notes/.DS_Store
+
+
+    Code Removed:
+        File: personal-finance/notes/.DS_Store
+
+
+
 ### charliemeyer2000: 'removed ds store' @ 08/28/2023, 13:29:48 to second-year
 
     Code Added:
