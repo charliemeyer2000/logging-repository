@@ -1,3 +1,11 @@
+### charliemeyer2000: 'started notes for sde on version control' @ 08/28/2023, 13:52:17 to second-year
+The following files were modified: 
+- sde/notes/reading-notes.md
+
+GPT Summary: 
+ > This commit added three files to the sde/notes directory: images/centralized-repo.png, images/distributed-repo.png, and reading-notes.md. The reading-notes.md file contains information about version control systems, including their benefits, such
+
+
 ### charliemeyer2000: 'one more ds store remove' @ 08/28/2023, 13:31:23 to second-year
 No files were modified in this commit.
 GPT Summary: 
