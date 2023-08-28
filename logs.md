@@ -1,3 +1,9 @@
+### charliemeyer2000: 'removed ds store' @ 08/28/2023, 13:29:47 to second-year
+No files were modified in this commit.
+GPT Summary: 
+ > This commit removed the .DS_Store files from the cso and linear directories.
+
+
 ### charliemeyer2000: 'removed ds store' @ 08/28/2023, 13:12:53 to second-year
 The following files were modified: 
 - .gitignore
