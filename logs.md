@@ -1,3 +1,12 @@
+### charliemeyer2000: 'removed ds store' @ 08/28/2023, 13:12:53 to second-year
+The following files were modified: 
+- .gitignore
+- personal-finance/notes/lectures.md
+
+GPT Summary: 
+ > This commit added a .DS_Store file to the .gitignore file and added a new point to the lectures.md file in the personal-finance/notes directory. It also removed the first point from the lectures.md file.
+
+
 ### charliemeyer2000: 'updated gitignore + lectures' @ 08/28/2023, 13:11:19 to second-year
 The following files were modified: 
 - .gitignore
