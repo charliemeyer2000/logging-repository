@@ -1,3 +1,18 @@
+### charliemeyer2000: 'updated gitignore + lectures' @ 08/28/2023, 13:11:19 to second-year
+The following files were modified: 
+- .gitignore
+- personal-finance/notes/lectures.md
+
+GPT Summary: 
+ > - #### Keys to Physical Wellbeing
+    - 
+    - - Eat healthy
+    - - Exercise
+    - - Sleep
+    - 
+    - Think of your money also like your welbeing. Calories in, calories out. Cash flow in, cash flow out.
+
+
 ### charliemeyer2000: 'removed a comment to test webhooks' @ 08/28/2023, 13:08:18 to website2
 The following files were modified: 
 - pages/404.js
