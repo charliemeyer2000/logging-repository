@@ -1,3 +1,11 @@
+### charliemeyer2000: 'link and text changes' @ 08/28/2023, 10:00:24 to website2
+The following files were modified: 
+- pages/index.js
+
+GPT Summary: 
+ > Summary: This commit adds a link to the HymnAI brand and a Solutions Architect title, while removing a link to the Hymn Market and a Cloud Practitioner title.
+
+
 ### charliemeyer2000: 'changed website again' @ 08/24/2023, 21:03:12 to charliemeyer2000
 The following files were modified: 
 - README.md
