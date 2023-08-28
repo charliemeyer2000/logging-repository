@@ -1,3 +1,18 @@
+### charliemeyer2000: 'removed ds store' @ 08/28/2023, 13:29:48 to second-year
+
+    Code Added:
+        File: cso/.DS_Store
+
+    File: linear/.DS_Store
+
+
+    Code Removed:
+        File: cso/.DS_Store
+
+    File: linear/.DS_Store
+
+
+
 ### charliemeyer2000: 'changed website again' @ 08/24/2023, 21:03:13 to charliemeyer2000
 
     Code Added:
