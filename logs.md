@@ -1,3 +1,11 @@
+### charliemeyer2000: 'updated resume' @ 08/29/2023, 21:00:20 to website2
+The following files were modified: 
+- static/images/resume.pdf
+
+GPT Summary: 
+ > This commit removed and added the same file, static/images/resume.pdf.
+
+
 ### charliemeyer2000: 'new post' @ 08/28/2023, 22:56:44 to website2
 The following files were modified: 
 - pages/index.js
