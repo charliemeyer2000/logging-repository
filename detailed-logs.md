@@ -1,3 +1,14 @@
+### charliemeyer2000: 'updated resume' @ 08/29/2023, 21:00:20 to website2
+
+    Code Added:
+        File: static/images/resume.pdf
+
+
+    Code Removed:
+        File: static/images/resume.pdf
+
+
+
 ### charliemeyer2000: 'one more ds store remove' @ 08/28/2023, 13:31:24 to second-year
 
     Code Added:
