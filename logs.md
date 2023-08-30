@@ -1,3 +1,12 @@
+### charliemeyer2000: 'new resume' @ 08/30/2023, 02:03:38 to website2
+The following files were modified: 
+- static/images/resume.pdf
+- utils/hooks/getStaticPaths.js
+
+GPT Summary: 
+ > This commit added a file for a resume PDF and a file for a static path, while removing a file for an unused post and a static path.
+
+
 ### charliemeyer2000: 'updated resume' @ 08/29/2023, 21:00:20 to website2
 The following files were modified: 
 - static/images/resume.pdf
