@@ -1,3 +1,25 @@
+### charliemeyer2000: 'new resume' @ 08/30/2023, 02:03:39 to website2
+
+    Code Added:
+        File: static/images/resume.pdf
+
+    File: unused-posts/serious.mdx
+
+    File: utils/hooks/getStaticPaths.js
+    +     // also add a path that routes "/resume" to "/static/images/resume.pdf"
+    +     paths: getPosts().map((post) => `/posts/${post.slug}`) && ["/resume"],
+
+
+    Code Removed:
+        File: static/images/resume.pdf
+
+    File: unused-posts/serious.mdx
+
+    File: utils/hooks/getStaticPaths.js
+    -     paths: getPosts().map((post) => `/posts/${post.slug}`),
+
+
+
 ### charliemeyer2000: 'updated resume' @ 08/29/2023, 21:00:20 to website2
 
     Code Added:
