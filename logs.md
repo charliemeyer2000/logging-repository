@@ -1,3 +1,12 @@
+### charliemeyer2000: 'lecture notes sde august 31 2023' @ 08/31/2023, 20:25:37 to second-year
+The following files were modified: 
+- .gitignore
+- sde/notes/lecture-notes.md
+
+GPT Summary: 
+ > This commit added code to the .gitignore, HelloWho.class, HelloWho.java, and lecture-notes.md files. It also provided an example of how gradle expects files to be organized and how gradle will not re-compile if the .class files are
+
+
 ### charliemeyer2000: 'remofed "detailed logs"' @ 08/31/2023, 18:26:11 to website2
 The following files were modified: 
 - posts/logging-repository.mdx
