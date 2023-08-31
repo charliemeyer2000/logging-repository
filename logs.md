@@ -1,3 +1,17 @@
+### charliemeyer2000: 'testing removing detailed logs' @ 08/31/2023, 18:20:56 to second-year
+The following files were modified: 
+- sde/notes/lecture-notes.md
+
+GPT Summary: 
+ > - ## Maven
+    - 
+    - Maven is a build tool and an automation tool that can:
+    - * Automatically download all libraries including the correct version number
+    - * Automate build process
+
+This commit added code to the file sde/notes
+
+
 ### charliemeyer2000: 'notes for sdle' @ 08/31/2023, 17:29:06 to second-year
 The following files were modified: 
 - cso/notes/lectures.md
