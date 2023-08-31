@@ -74,7 +74,8 @@ def lambda_handler(event, context):
 
     # Add the summary to the markdown file in repository named "logging-repository"
     create_commit(commit_summary=commit_summary, commit_message=commit_message, repository_committed_to=repository_committed_to, files_modified=files_modified, committer=committer)
-    create_detailed_commit(code_added=lines_added, code_removed=lines_removed, repository_committed_to=repository_committed_to, commit_message=commit_message, committer=committer)
+    # this doesn't work rn because it gets issues with images and other things in a commit. Fix later if you want. 
+    # create_detailed_commit(code_added=lines_added, code_removed=lines_removed, repository_committed_to=repository_committed_to, commit_message=commit_message, committer=committer)
 
     # return a 200 response to acknowledge receipt of the payload
     return 'Commit summary added to README.md file in logging-repository'
@@ -183,7 +184,7 @@ def create_commit(commit_summary: str, commit_message: str, repository_committed
     response = requests.put(url=url, headers=headers, data=json.dumps(data))
 
 
-## TODO: make a method called "create detailed logs" where rather than doing a GPT summary you just directly add the added/removed code to the file. Add it to a separate file called "detailed-logs.md"
+# TODO: Debug. This doesn't work, but 
 def create_detailed_commit(code_added: dict, code_removed: dict, repository_committed_to:str, commit_message: str, committer: str) -> None:
     """
     This generates a detailed log of the commit made and adds it to the `detailed-logs.md` file in the logging-repository
