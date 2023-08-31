@@ -1,3 +1,11 @@
+### charliemeyer2000: 'remofed "detailed logs"' @ 08/31/2023, 18:26:11 to website2
+The following files were modified: 
+- posts/logging-repository.mdx
+
+GPT Summary: 
+ > This commit removed the function create_detailed_commit and replaced it with create_commit, which creates a commit using the GitHub API, with a GPT summary and the entire commit, editing the logs.md file with the new commit.
+
+
 ### charliemeyer2000: 'testing removing detailed logs' @ 08/31/2023, 18:20:56 to second-year
 The following files were modified: 
 - sde/notes/lecture-notes.md
