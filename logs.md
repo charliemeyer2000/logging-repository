@@ -1,3 +1,14 @@
+### charliemeyer2000: 'notes for sdle' @ 08/31/2023, 17:29:06 to second-year
+The following files were modified: 
+- cso/notes/lectures.md
+- cso/notes/textbook-notes.md
+- sde/notes/lecture-notes.md
+- sde/notes/reading-notes.md
+
+GPT Summary: 
+ > This commit added code to four files: cso/notes/lectures.md, sde/notes/images/feedback-cycle.png, sde/notes/lecture-notes.md, and sde/notes/reading-notes.md. The code
+
+
 ### charliemeyer2000: 'new resume' @ 08/30/2023, 02:03:38 to website2
 The following files were modified: 
 - static/images/resume.pdf
