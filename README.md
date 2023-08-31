@@ -1,10 +1,10 @@
 # Logging Repository
 
-This repository contains logs and detailed logs of any commits I make that are set up to my webhook endpoint. Any time I commit or perform any action on a repository that has this webhook configured, it edits this `logs.md` file and adds a new `h3` to the file with the commit name, repository committed to, and the date. Below the header, a summary of the code (up to 2000 characters) is generated using GPT 3.5 to summarize the changes.
+This repository contains logs of any commits I make that are set up to my webhook endpoint. Any time I commit or perform any action on a repository that has this webhook configured, it edits this `logs.md` file and adds a new `h3` to the file with the commit name, repository committed to, and the date. Below the header, a summary of the code (up to 2000 characters) is generated using GPT 3.5 to summarize the changes.
 
 ## How it works
 
-Using AWS API Gateway and AWS Lambda, I have a webhook endpoint at `api.charliemeyer.xyz` that is triggered by a GitHub webhook. This endpoint then triggers a lambda function (see `code/lamnda-function.py`) that then edits the `logs.md` and `detailed-logs.md` files on this repository.
+Using AWS API Gateway and AWS Lambda, I have a webhook endpoint at `api.charliemeyer.xyz` that is triggered by a GitHub webhook. This endpoint then triggers a lambda function (see `code/lamnda-function.py`) that then edits the `logs.md` on this repository.
 
 ## Do it yourself 
 
