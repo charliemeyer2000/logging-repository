@@ -1,3 +1,16 @@
+### charliemeyer2000: 'notes for cso and finance' @ 09/01/2023, 16:51:33 to second-year
+The following files were modified: 
+- cso/notes/lectures.md
+- personal-finance/notes/readings.md
+
+GPT Summary: 
+ > policies, bank statements, tax returns, etc.
+    + 
+    + ![Keeping Financial Records](images/keeping-financial-records.png)
+
+This commit added new content to three files: cso/notes/lectures.md, linear/notes.md
+
+
 ### charliemeyer2000: 'lecture notes sde august 31 2023' @ 08/31/2023, 20:25:37 to second-year
 The following files were modified: 
 - .gitignore
