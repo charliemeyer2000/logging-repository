@@ -1,3 +1,14 @@
+### charliemeyer2000: 'notes for chapter 3 personal finance.' @ 09/02/2023, 00:56:23 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+
+GPT Summary: 
+ > ues land and buildings. 
+    +     * Personal property includes items such as furniture, jewelry, and vehicles. 
+
+This commit added three images and a reading.md file to the personal-finance/notes directory. The reading.md file explains the importance of personal financial statements
+
+
 ### charliemeyer2000: 'notes for cso and finance' @ 09/01/2023, 16:51:33 to second-year
 The following files were modified: 
 - cso/notes/lectures.md
