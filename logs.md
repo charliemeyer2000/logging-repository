@@ -1,3 +1,14 @@
+### charliemeyer2000: 'personal finance notes' @ 09/04/2023, 13:00:54 to second-year
+The following files were modified: 
+- personal-finance/notes/lectures.md
+
+GPT Summary: 
+ > (FSA)**: employer-sponsored account that allows you to set aside pre-tax money for medical expenses.
+    +     - Employer and employee may contribute to the FSA pre-tax. 
+    +     - Benefits:
+    +         * Available **only** with
+
+
 ### charliemeyer2000: 'notes for chapter 3 personal finance.' @ 09/02/2023, 00:56:23 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
