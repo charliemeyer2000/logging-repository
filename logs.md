@@ -1,3 +1,15 @@
+### charliemeyer2000: 'done personal finance  for monday sept 4' @ 09/04/2023, 13:32:35 to second-year
+The following files were modified: 
+- personal-finance/notes/lectures.md
+
+GPT Summary: 
+ > - ### Analyze First, then Decide
+    - 
+    - * Use tools to analyze
+    - * On Day 1:
+    -     - Figure out what's expected of you. What are your responsibilities? Who do you report to? Will you have a mentor?
+
+
 ### charliemeyer2000: 'added rfiles' @ 09/04/2023, 13:03:18 to second-year
 The following files were modified: 
 - .gitignore
