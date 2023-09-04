@@ -1,3 +1,14 @@
+### charliemeyer2000: 'cso and some more personal finance' @ 09/04/2023, 18:40:16 to second-year
+The following files were modified: 
+- cso/notes/lectures.md
+- personal-finance/notes/readings.md
+
+GPT Summary: 
+ > irty/Medicare taxes and income taxes. 
+
+This commit added files related to lectures and readings for the courses Computer Science and Personal Finance. It also added images related to computing taxable income. The readings included information on different types of taxes, such as sales tax, excise tax, real estate
+
+
 ### charliemeyer2000: 'done personal finance  for monday sept 4' @ 09/04/2023, 13:32:35 to second-year
 The following files were modified: 
 - personal-finance/notes/lectures.md
