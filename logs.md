@@ -1,3 +1,15 @@
+### charliemeyer2000: 'added rfiles' @ 09/04/2023, 13:03:18 to second-year
+The following files were modified: 
+- .gitignore
+- personal-finance/notes/lectures.md
+
+GPT Summary: 
+ > 0 -0.3333333
+    + # [2,]    0    1    0  0.6666667
+    + # [3,]    0    0    1  0.3333333
+    + # Model: f(x) = -0.3333x
+
+
 ### charliemeyer2000: 'personal finance notes' @ 09/04/2023, 13:00:54 to second-year
 The following files were modified: 
 - personal-finance/notes/lectures.md
