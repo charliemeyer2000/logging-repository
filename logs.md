@@ -1,3 +1,15 @@
+### charliemeyer2000: 'some seo stuff' @ 09/05/2023, 20:21:44 to website2
+The following files were modified: 
+- components/customHead/CustomHead.js
+- package.json
+- pages/_app.js
+- pages/_document.js
+- yarn.lock
+
+GPT Summary: 
+ > This commit added several files and code to the project, including meta tags, a favicon, and images for syntax highlighting and Katex. It also added the next-seo package to the package.json file and updated the yarn.lock file.
+
+
 ### charliemeyer2000: 'sde notes sept 5 2023' @ 09/05/2023, 19:14:52 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
