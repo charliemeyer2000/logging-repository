@@ -1,3 +1,12 @@
+### charliemeyer2000: 'sde notes sept 5 2023' @ 09/05/2023, 19:14:52 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+- sde/notes/lecture-notes.md
+
+GPT Summary: 
+ > This commit adds information about how consumer purchasing affects taxes. It explains that owning a home is a tax shelter, consumer debt can be deducted, and flexible spending and health savings accounts can reduce taxable income. It also explains tax-exempt investments, tax-deferred investments, capital gains and losses,
+
+
 ### charliemeyer2000: 'cso and some more personal finance' @ 09/04/2023, 18:40:16 to second-year
 The following files were modified: 
 - cso/notes/lectures.md
