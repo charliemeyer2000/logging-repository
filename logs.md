@@ -1,3 +1,13 @@
+### charliemeyer2000: 'ignored quizzes for linear as well' @ 09/06/2023, 21:47:11 to second-year
+The following files were modified: 
+- .gitignore
+
+GPT Summary: 
+ > - linear/exercises
+
+This commit added the linear/quizzes directory to the .gitignore file and removed the linear/exercises directory from the .gitignore file.
+
+
 ### charliemeyer2000: 'lec7 for cso' @ 09/06/2023, 18:06:22 to second-year
 The following files were modified: 
 - cso/notes/lectures.md
