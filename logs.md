@@ -1,3 +1,11 @@
+### charliemeyer2000: 'lec7 for cso' @ 09/06/2023, 18:06:22 to second-year
+The following files were modified: 
+- cso/notes/lectures.md
+
+GPT Summary: 
+ > This commit added the file cso/notes/lectures.md and cso/notes/slides/7-adders.pdf, and removed the file cso/notes/lectures.md.
+
+
 ### charliemeyer2000: 'lectures for personal finance' @ 09/06/2023, 13:36:05 to second-year
 The following files were modified: 
 - personal-finance/notes/lectures.md
