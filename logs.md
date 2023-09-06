@@ -1,3 +1,16 @@
+### charliemeyer2000: 'lectures for personal finance' @ 09/06/2023, 13:36:05 to second-year
+The following files were modified: 
+- personal-finance/notes/lectures.md
+
+GPT Summary: 
+ > income
+    + 1. Maximize your deductions
+    + 1. Take advantage of tax credits
+    + 
+
+This commit added a lecture on personal finance topics, including statements, budgeting, and tax strategies. It discussed the importance of saving money to avoid taxes, and provided an
+
+
 ### charliemeyer2000: 'some seo stuff' @ 09/05/2023, 20:21:44 to website2
 The following files were modified: 
 - components/customHead/CustomHead.js
