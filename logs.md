@@ -1,3 +1,13 @@
+### charliemeyer2000: 'halfway done personal finance notes ch. 5' @ 09/07/2023, 17:36:25 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+
+GPT Summary: 
+ > _cashier's check_ is a check drawn on the bank's funds and signed by a cashier.
+
+This commit added three images and a readings.md file to the personal-finance/notes directory. The readings.md file covers topics such as financial services for financial planning,
+
+
 ### charliemeyer2000: 'ignored quizzes for linear as well' @ 09/06/2023, 21:47:11 to second-year
 The following files were modified: 
 - .gitignore
