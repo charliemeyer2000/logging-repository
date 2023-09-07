@@ -1,3 +1,13 @@
+### charliemeyer2000: 'finished personal finance notes for monday sept 11' @ 09/07/2023, 19:57:22 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+
+GPT Summary: 
+ > % on their savings were actually losing money in real terms.
+
+This commit adds information about compounding, the Truth in Savings Law, and inflation to the readings.md file. Compounding refers to the interest earned on previously earned interest, and the more frequently compounding occurs, the higher the
+
+
 ### charliemeyer2000: 'sde notes sept 7' @ 09/07/2023, 19:09:18 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
