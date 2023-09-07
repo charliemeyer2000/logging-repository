@@ -1,3 +1,16 @@
+### charliemeyer2000: 'sde notes sept 7' @ 09/07/2023, 19:09:18 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+- sde/notes/lecture-notes.md
+
+GPT Summary: 
+ > due(double amountOverdue) {
+    + 		this.amountOverdue = amountOverdue;
+    + 	}
+    + 
+    + 	public void setInterestExempt(boolean interestExempt) {
+
+
 ### charliemeyer2000: 'halfway done personal finance notes ch. 5' @ 09/07/2023, 17:36:25 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
