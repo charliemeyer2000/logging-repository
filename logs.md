@@ -1,3 +1,11 @@
+### charliemeyer2000: 'cso lecture 8' @ 09/08/2023, 16:54:45 to second-year
+The following files were modified: 
+- cso/notes/lectures.md
+
+GPT Summary: 
+ > A new lecture was added to the cso/notes/lectures.md file titled "Meeting 7 - clocks, registers" with an empty slides link, and a new 8-clocks-hw.pdf file was added to the cso/notes/slides directory.
+
+
 ### charliemeyer2000: 'finished personal finance notes for monday sept 11' @ 09/07/2023, 19:57:22 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
