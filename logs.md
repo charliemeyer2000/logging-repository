@@ -1,3 +1,13 @@
+### charliemeyer2000: 'moved stuff to public folder reorganize this later' @ 09/10/2023, 22:50:41 to website2
+The following files were modified: 
+- components/link/Link.js
+- components/soundToggle/SoundToggle.js
+- components/themeToggle/ThemeToggle.js
+
+GPT Summary: 
+ > This commit added and removed audio files and code related to sound in components/link/Link.js, components/soundToggle/SoundToggle.js, and components/themeToggle/ThemeToggle.js.
+
+
 ### charliemeyer2000: 'cso lecture 8' @ 09/08/2023, 16:54:45 to second-year
 The following files were modified: 
 - cso/notes/lectures.md
