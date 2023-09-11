@@ -1,3 +1,15 @@
+### charliemeyer2000: 'cso notes + lecture 9' @ 09/11/2023, 15:45:58 to second-year
+The following files were modified: 
+- cso/notes/textbook-notes.md
+- entp/notes/lecture-notes.md
+- sde/notes/reading-notes.md
+
+GPT Summary: 
+ > ably faster than the speed of the logic gates, so when the clock changes, the register will update its output to the value of its input.
+
+This commit added a new file, cso/notes/slides/9-memory-hw.pdf, and updated cso/notes
+
+
 ### charliemeyer2000: 'personal finance notes 9/11/23' @ 09/11/2023, 13:38:54 to second-year
 The following files were modified: 
 - personal-finance/notes/lectures.md
