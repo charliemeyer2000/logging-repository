@@ -1,3 +1,16 @@
+### charliemeyer2000: 'personal finance notes 9/11/23' @ 09/11/2023, 13:38:54 to second-year
+The following files were modified: 
+- personal-finance/notes/lectures.md
+
+GPT Summary: 
+ > Allowance Certificate)
+    + 2. Estimated Tax Payments:
+    +     * Self-employed individuals, investors, and others who don't have taxes withheld from their income
+    +     * Quarterly payments
+    + 3. Refunds:
+    +     * If you over
+
+
 ### charliemeyer2000: 'moved stuff to public folder reorganize this later' @ 09/10/2023, 22:50:41 to website2
 The following files were modified: 
 - components/link/Link.js
