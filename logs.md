@@ -1,3 +1,14 @@
+### charliemeyer2000: 'personal finance notes' @ 09/11/2023, 20:16:24 to second-year
+The following files were modified: 
+- entp/notes/lecture-notes.md
+- personal-finance/notes/readings.md
+
+GPT Summary: 
+ > of future income.
+
+This commit added lecture notes for Day 10 and Day 9, an image of debt payments to income, and a reading on consumer credit. The reading explains that credit can be used to purchase goods and services, and offers benefits such as float time, cash back, and insurance
+
+
 ### charliemeyer2000: 'sde notes' @ 09/11/2023, 17:37:52 to second-year
 The following files were modified: 
 - sde/notes/reading-notes.md
