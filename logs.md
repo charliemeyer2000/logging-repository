@@ -1,3 +1,13 @@
+### charliemeyer2000: 'sde notes' @ 09/11/2023, 17:37:52 to second-year
+The following files were modified: 
+- sde/notes/reading-notes.md
+
+GPT Summary: 
+ > number. 
+
+This commit added a new file, reading-notes.md, which covers defensive programming. It explains that developers should consider potential user errors and inform them when they make a mistake. It also introduces client classes, rollback and throw, and assert as methods for defensive programming.
+
+
 ### charliemeyer2000: 'cso notes + lecture 9' @ 09/11/2023, 15:45:58 to second-year
 The following files were modified: 
 - cso/notes/textbook-notes.md
