@@ -1,3 +1,16 @@
+### charliemeyer2000: 'lecture 7 exceptions/defensive programming' @ 09/12/2023, 19:20:28 to second-year
+The following files were modified: 
+- sde/notes/lecture-notes.md
+
+GPT Summary: 
+ > acle.jrockit.jfr.JFR;
+    + 
+    + public class BankAccountTest {
+    +     public static void main(String[] args) {
+    +         BankAccount account = new BankAccount(100.0);
+    +         System
+
+
 ### charliemeyer2000: 'code highlight minor changes' @ 09/12/2023, 18:04:48 to website2
 The following files were modified: 
 - styles/pojoaque.scss
