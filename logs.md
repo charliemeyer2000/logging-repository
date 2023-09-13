@@ -1,3 +1,17 @@
+### charliemeyer2000: 'personal finance lecture 9/13' @ 09/13/2023, 13:36:31 to second-year
+The following files were modified: 
+- personal-finance/notes/lectures.md
+
+GPT Summary: 
+ > wal, low fees
+    +     - Low interest rate
+    + 2. Certificates of Deposit
+    +     - Higher interest rate
+    +     - Penalties for early withdrawal
+
+This commit added a new file to the personal-finance/notes/lectures.
+
+
 ### charliemeyer2000: 'lecture 7 exceptions/defensive programming' @ 09/12/2023, 19:20:28 to second-year
 The following files were modified: 
 - sde/notes/lecture-notes.md
