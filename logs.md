@@ -1,3 +1,11 @@
+### charliemeyer2000: 'new resume' @ 09/13/2023, 17:25:06 to website2
+The following files were modified: 
+- static/images/resume.pdf
+
+GPT Summary: 
+ > This commit removed and added the same file, static/images/resume.pdf.
+
+
 ### charliemeyer2000: 'personal finance lecture 9/13' @ 09/13/2023, 13:36:31 to second-year
 The following files were modified: 
 - personal-finance/notes/lectures.md
