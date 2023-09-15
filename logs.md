@@ -1,3 +1,16 @@
+### charliemeyer2000: 'readings chapter 7 personal finance.' @ 09/15/2023, 01:44:58 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+
+GPT Summary: 
+ > Interest Rate |
+    + |--------------|--------------|
+    + |Parents/Family |No Interest   |
+    + |Commercial Banks|5-7%         |
+    + |Financial Aid  |Varies        |
+    + |New-Car Loans  |Varies
+
+
 ### charliemeyer2000: 'new resume' @ 09/13/2023, 17:25:06 to website2
 The following files were modified: 
 - static/images/resume.pdf
