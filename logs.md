@@ -1,3 +1,20 @@
+### charliemeyer2000: 'xkcd comic in website' @ 09/17/2023, 21:59:31 to website2
+The following files were modified: 
+- components/staticTableOfContents/StaticTableOfContents.js
+- next.config.js
+- package.json
+- pages/index.js
+- static/types/Components.js
+- yarn.lock
+
+GPT Summary: 
+ > on xkcd api
+    + const fetchXKCD = async () => {
+    +   const res = await axios.get("https://xkcd.com/info.0.json");
+    +   return res.data;
+    + };
+
+
 ### charliemeyer2000: 'oih man' @ 09/17/2023, 18:14:11 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
