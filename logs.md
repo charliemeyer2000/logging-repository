@@ -1,3 +1,12 @@
+### charliemeyer2000: 'removed bad loading svg' @ 09/17/2023, 22:04:31 to website2
+The following files were modified: 
+- components/xkcd/XKCD.js
+- pages/index.js
+
+GPT Summary: 
+ > This commit added an image and title to the XKCD component, added the index page, and removed the loading SVG, loading state, and XKCD component from the index page.
+
+
 ### charliemeyer2000: 'xkcd comic in website' @ 09/17/2023, 21:59:31 to website2
 The following files were modified: 
 - components/staticTableOfContents/StaticTableOfContents.js
