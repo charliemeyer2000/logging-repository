@@ -1,3 +1,11 @@
+### charliemeyer2000: 'oih man' @ 09/17/2023, 18:14:11 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+
+GPT Summary: 
+ > This commit added information about personal finance to the readings.md file, including information about interest rates, extended payment periods, and a formula to calculate APR. It also removed a formula for calculating APR from the same file.
+
+
 ### charliemeyer2000: 'readings chapter 7 personal finance.' @ 09/15/2023, 01:44:58 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
