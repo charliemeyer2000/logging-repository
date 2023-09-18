@@ -1,3 +1,14 @@
+### charliemeyer2000: 'personal finance lecture 9/18/23' @ 09/18/2023, 13:15:09 to second-year
+The following files were modified: 
+- personal-finance/notes/lectures.md
+
+GPT Summary: 
+ > iling a request with the credit bureaus to prevent access to your credit report
+    + * Locking - Filing a request with the credit bureaus to prevent access to your credit report
+
+This commit added information about the 5 C's of Credit Management, how companies evaluate character,
+
+
 ### charliemeyer2000: 'removed bad loading svg' @ 09/17/2023, 22:04:31 to website2
 The following files were modified: 
 - components/xkcd/XKCD.js
