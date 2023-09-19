@@ -1,3 +1,13 @@
+### charliemeyer2000: 'personal finance readings (almost done)' @ 09/19/2023, 18:10:58 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+
+GPT Summary: 
+ > y the seller's words or actions.
+
+This commit added a new file to the cso/notes/slides/12-isa.pdf and personal-finance/notes/readings.md. The new file in personal-finance/notes/readings.md discussed
+
+
 ### charliemeyer2000: 'personal finance lecture 9/18/23' @ 09/18/2023, 13:15:09 to second-year
 The following files were modified: 
 - personal-finance/notes/lectures.md
