@@ -1,3 +1,14 @@
+### charliemeyer2000: 'sde readings and lectures' @ 09/19/2023, 23:48:18 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+- sde/important-info.md
+- sde/notes/lecture-notes.md
+- sde/notes/reading-notes.md
+
+GPT Summary: 
+ > le: sde/important-info.md was updated with new information about midterm review pages. Additionally, a new file, personal-finance/notes/readings.md, was added with information about small claims court, class action suits, using a lawyer, and legal alternatives.
+
+
 ### charliemeyer2000: 'personal finance readings (almost done)' @ 09/19/2023, 18:10:58 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
