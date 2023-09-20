@@ -1,3 +1,13 @@
+### charliemeyer2000: 'personal finance lecture 9/20/23' @ 09/20/2023, 14:46:54 to second-year
+The following files were modified: 
+- personal-finance/notes/lectures.md
+
+GPT Summary: 
+ > Day 10
+
+This commit added a new file, personal-finance/notes/lectures.md, which covers topics such as comparing transportation costs, autos acquisition and operating costs, carrying costs and operating costs, and how to reduce car costs. It also includes resources for car buying and information
+
+
 ### charliemeyer2000: 'sde readings and lectures' @ 09/19/2023, 23:48:18 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
