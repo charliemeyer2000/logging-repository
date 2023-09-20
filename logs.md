@@ -1,3 +1,9 @@
+### charliemeyer2000: 'added pdf for cso lecture 13 9/20/23' @ 09/20/2023, 19:04:27 to second-year
+No files were modified in this commit.
+GPT Summary: 
+ > This commit removed the file cso/notes/slides/13-isa.pdf.
+
+
 ### charliemeyer2000: 'personal finance lecture 9/20/23' @ 09/20/2023, 14:46:54 to second-year
 The following files were modified: 
 - personal-finance/notes/lectures.md
