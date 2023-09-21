@@ -1,3 +1,16 @@
+### charliemeyer2000: 'sde readings 9/201/23' @ 09/21/2023, 16:17:07 to second-year
+The following files were modified: 
+- sde/notes/reading-notes.md
+
+GPT Summary: 
+ > +         // ...
+    +     }
+    + }
+    + ```
+
+This commit added code to the file sde/notes/reading-notes.md which introduces the concepts of polymorphism, interface, and abstraction. It provides an example of an interface in
+
+
 ### charliemeyer2000: 'added pdf for cso lecture 13 9/20/23' @ 09/20/2023, 19:04:27 to second-year
 No files were modified in this commit.
 GPT Summary: 
