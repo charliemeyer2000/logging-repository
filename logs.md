@@ -1,3 +1,9 @@
+### charliemeyer2000: 'linear exam practice 1' @ 09/21/2023, 23:39:59 to second-year
+No files were modified in this commit.
+GPT Summary: 
+ > Summary: This commit added and removed the same three files: exam01-F19.pdf, exam01-F22.pdf, and tf-practice.pdf from the linear/exam1 directory.
+
+
 ### charliemeyer2000: 'sde readings 9/201/23' @ 09/21/2023, 16:17:07 to second-year
 The following files were modified: 
 - sde/notes/reading-notes.md
