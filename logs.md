@@ -1,3 +1,9 @@
+### charliemeyer2000: 'lecture 14 cso' @ 09/22/2023, 16:58:49 to second-year
+No files were modified in this commit.
+GPT Summary: 
+ > This commit removed the file cso/notes/slides/14-isa.pdf.
+
+
 ### charliemeyer2000: 'linear exam practice 1' @ 09/21/2023, 23:39:59 to second-year
 No files were modified in this commit.
 GPT Summary: 
