@@ -1,3 +1,14 @@
+### charliemeyer2000: 'personal finance chapter 9.1-9.2' @ 09/23/2023, 21:14:05 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+
+GPT Summary: 
+ > + 1. Limited control - tenants cannot make changes to the property
+    + 1. No equity - tenants do not build equity in the property
+
+This commit added three files related to personal finance: housing-alternatives.png, housing-choices.png, and readings.
+
+
 ### charliemeyer2000: 'lecture 14 cso' @ 09/22/2023, 16:58:49 to second-year
 No files were modified in this commit.
 GPT Summary: 
