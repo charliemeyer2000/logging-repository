@@ -1,3 +1,13 @@
+### charliemeyer2000: 'notes for chapter 9 done personal finance' @ 09/23/2023, 23:56:58 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+
+GPT Summary: 
+ > paid at closing. 
+
+This commit added code to the personal-finance/notes/readings.md file, which includes information about the home-buying process, the finances of home buying, and how to obtain financing. It also explains the process of prequalification, the
+
+
 ### charliemeyer2000: 'personal finance chapter 9.1-9.2' @ 09/23/2023, 21:14:05 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
