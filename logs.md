@@ -1,3 +1,14 @@
+### charliemeyer2000: 'exam review for sde (even though exam cancelled)' @ 09/24/2023, 23:21:19 to second-year
+The following files were modified: 
+- sde/notes/reading-notes.md
+
+GPT Summary: 
+ > line at a time.
+    +         * JIT - Just-in-time compiler. This is an optimization that compiles your code into native machine code for faster execution.
+
+This commit added a section to the reading notes about software engineering, Java, and how it works. It
+
+
 ### charliemeyer2000: 'no reading for lecture 11 (would've been exam)' @ 09/24/2023, 22:21:04 to second-year
 The following files were modified: 
 - sde/notes/reading-notes.md
