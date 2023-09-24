@@ -1,3 +1,14 @@
+### charliemeyer2000: 'no reading for lecture 11 (would've been exam)' @ 09/24/2023, 22:21:04 to second-year
+The following files were modified: 
+- sde/notes/reading-notes.md
+
+GPT Summary: 
+ > - ## Reading 11 - Exam, so skipped
+    - 
+
+A line of code was added and removed from the file "sde/notes/reading-notes.md" which indicated that the Reading 11 exam was skipped.
+
+
 ### charliemeyer2000: 'notes for chapter 9 done personal finance' @ 09/23/2023, 23:56:58 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
