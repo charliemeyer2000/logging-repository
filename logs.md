@@ -1,3 +1,16 @@
+### charliemeyer2000: 'lecture notes for 9/25 personal finance' @ 09/25/2023, 13:14:25 to second-year
+The following files were modified: 
+- personal-finance/notes/lectures.md
+
+GPT Summary: 
+ > money to buy a house
+    + * Advantages and disadvantages of home ownership
+    + * Upfront and operating costs
+    + * Closing costs
+
+This commit added a new lecture to the personal finance notes, covering housing and loans. It discussed the upfront and ongoing costs of buying
+
+
 ### charliemeyer2000: 'exam review for sde (even though exam cancelled)' @ 09/24/2023, 23:21:19 to second-year
 The following files were modified: 
 - sde/notes/reading-notes.md
