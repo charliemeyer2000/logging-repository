@@ -1,3 +1,13 @@
+### charliemeyer2000: 'some notes for personal finance midterm' @ 09/25/2023, 23:48:00 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+
+GPT Summary: 
+ > - money saved and invested. This increases over time, and starts very low (around age 25)
+
+This commit added four files related to a personal finance midterm: Mid-term.assessment.sample.questions.9.20.2023.pdf, Personal Finance.Study.
+
+
 ### charliemeyer2000: 'cso notes 9/25' @ 09/25/2023, 16:01:06 to second-year
 No files were modified in this commit.
 GPT Summary: 
