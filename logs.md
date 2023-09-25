@@ -1,3 +1,9 @@
+### charliemeyer2000: 'cso notes 9/25' @ 09/25/2023, 16:01:06 to second-year
+No files were modified in this commit.
+GPT Summary: 
+ > Summary: A file (cso/notes/slides/15-overview.pdf) was added and removed in this GitHub commit.
+
+
 ### charliemeyer2000: 'lecture notes for 9/25 personal finance' @ 09/25/2023, 13:14:25 to second-year
 The following files were modified: 
 - personal-finance/notes/lectures.md
