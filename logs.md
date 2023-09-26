@@ -1,3 +1,9 @@
+### charliemeyer2000: 'added slides 1 and 2 for cso' @ 09/26/2023, 17:52:56 to second-year
+No files were modified in this commit.
+GPT Summary: 
+ > This commit added and removed the files cso/notes/slides/1-introduction.pdf and cso/notes/slides/2-boolean-algebra.pdf.
+
+
 ### charliemeyer2000: 'more notes for personal finance review.' @ 09/26/2023, 00:41:33 to second-year
 The following files were modified: 
 - personal-finance/midterm1/review.md
