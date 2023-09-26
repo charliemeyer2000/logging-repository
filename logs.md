@@ -1,3 +1,12 @@
+### charliemeyer2000: 'lecture notes for sde and also updated readme' @ 09/26/2023, 20:50:20 to second-year
+The following files were modified: 
+- README.md
+- sde/notes/lecture-notes.md
+
+GPT Summary: 
+ > This commit added a new class, AlarmClock, to the sde/notes/class-examples/11-OO-review/ directory. The class extends the Clock class and has methods to set and get the alarm hour and minute, as well as a checkAlarm()
+
+
 ### charliemeyer2000: 'added slides 1 and 2 for cso' @ 09/26/2023, 17:52:56 to second-year
 No files were modified in this commit.
 GPT Summary: 
