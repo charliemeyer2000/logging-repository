@@ -1,3 +1,13 @@
+### charliemeyer2000: 'more notes for personal finance review.' @ 09/26/2023, 00:41:33 to second-year
+The following files were modified: 
+- personal-finance/midterm1/review.md
+
+GPT Summary: 
+ > -end charges.
+
+This commit added information about co-signing a loan, managing credit, the cost to purchase and own a car or house, depreciation and appreciation, and leasing a car. It also provided strategies to build credit and safeguard it, as well as the pros and cons of
+
+
 ### charliemeyer2000: 'some notes for personal finance midterm' @ 09/25/2023, 23:48:00 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
