@@ -1,3 +1,9 @@
+### charliemeyer2000: 'exam review cso' @ 09/27/2023, 18:02:00 to second-year
+No files were modified in this commit.
+GPT Summary: 
+ > Summary: A file (cso/notes/slides/16-exam-review.pdf) was added and removed in this GitHub commit.
+
+
 ### charliemeyer2000: 'sample questions review from personal finance 9/27' @ 09/27/2023, 15:09:05 to second-year
 The following files were modified: 
 - personal-finance/midterm1/sample_questions.md
