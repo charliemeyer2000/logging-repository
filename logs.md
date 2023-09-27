@@ -1,3 +1,13 @@
+### charliemeyer2000: 'finished personal finance notes' @ 09/27/2023, 02:23:05 to second-year
+The following files were modified: 
+- personal-finance/midterm1/review.md
+
+GPT Summary: 
+ > ate of tax on the next dollar of income
+
+This commit adds information about personal finance topics such as cost of living differences, adjusted balance held in a checking account, expected future value of an investment using the rule of 72, net after-tax take-home pay, tax equivalent value of a
+
+
 ### charliemeyer2000: 'lecture notes for sde and also updated readme' @ 09/26/2023, 20:50:20 to second-year
 The following files were modified: 
 - README.md
