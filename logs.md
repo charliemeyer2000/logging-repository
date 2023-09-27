@@ -1,3 +1,11 @@
+### charliemeyer2000: 'sample questions review from personal finance 9/27' @ 09/27/2023, 15:09:05 to second-year
+The following files were modified: 
+- personal-finance/midterm1/sample_questions.md
+
+GPT Summary: 
+ > This commit added three questions related to mortgages, income risk, and the standard deduction, and removed three questions related to credit card debt, liquidity risk, and taxable income.
+
+
 ### charliemeyer2000: 'finished personal finance notes' @ 09/27/2023, 02:23:05 to second-year
 The following files were modified: 
 - personal-finance/midterm1/review.md
