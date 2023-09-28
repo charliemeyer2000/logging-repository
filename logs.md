@@ -1,3 +1,13 @@
+### charliemeyer2000: 'sde lecture 8/28' @ 09/28/2023, 19:20:12 to second-year
+The following files were modified: 
+- sde/notes/lecture-notes.md
+
+GPT Summary: 
+ > els can be tested and debugged independently. 
+
+This commit adds a new lecture note to the sde/notes/lecture-notes.md file. The lecture covers internal software quality, design difficulties, and design concepts. It explains that software complexity is inherent, and that changeability
+
+
 ### charliemeyer2000: 'exam review cso' @ 09/27/2023, 18:02:00 to second-year
 No files were modified in this commit.
 GPT Summary: 
