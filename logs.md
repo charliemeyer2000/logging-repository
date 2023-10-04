@@ -1,3 +1,11 @@
+### charliemeyer2000: 'personal finance lecture 9/4' @ 10/04/2023, 13:15:39 to second-year
+The following files were modified: 
+- personal-finance/notes/lectures.md
+
+GPT Summary: 
+ > This commit adds a new lecture to the personal finance notes about risk mitigation. It covers types of risk, risk mitigation strategies, and the basics of insurance coverage. It also covers car insurance coverage in detail, including collision, comprehensive physical damage, medical payments coverage, bodily injury liability, property damage
+
+
 ### charliemeyer2000: 'sde lecture 8/28' @ 09/28/2023, 19:20:12 to second-year
 The following files were modified: 
 - sde/notes/lecture-notes.md
