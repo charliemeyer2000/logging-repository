@@ -1,3 +1,13 @@
+### charliemeyer2000: 'notes for sde oct 5 and cso lec' @ 10/05/2023, 17:18:20 to second-year
+The following files were modified: 
+- sde/notes/reading-notes.md
+
+GPT Summary: 
+ > soication - when two classes have a relationship with each other.
+
+This commit added four image files and one markdown file to the cso/notes/slides/ and sde/notes/ directories. The markdown file contains information about UML class diagrams, class descriptions, and
+
+
 ### charliemeyer2000: 'personal finance lecture 9/4' @ 10/04/2023, 13:15:39 to second-year
 The following files were modified: 
 - personal-finance/notes/lectures.md
