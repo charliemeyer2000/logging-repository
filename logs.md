@@ -1,3 +1,16 @@
+### charliemeyer2000: 'sde lecture notes oct 5 2023' @ 10/05/2023, 22:15:55 to second-year
+The following files were modified: 
+- sde/notes/lecture-notes.md
+
+GPT Summary: 
+ > cesary. 
+    + 
+    + **Best**
+    + - Functional Cohesion - when all elements of a module are related to a single purpose. 
+
+This commit adds a section to a lecture notes file about software design principles. It covers the worst to best types
+
+
 ### charliemeyer2000: 'notes for sde oct 5 and cso lec' @ 10/05/2023, 17:18:20 to second-year
 The following files were modified: 
 - sde/notes/reading-notes.md
