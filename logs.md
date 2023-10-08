@@ -1,3 +1,11 @@
+### charliemeyer2000: 'cso lec, entp readings, personal finance readings' @ 10/08/2023, 21:31:55 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+
+GPT Summary: 
+ > This commit added three files related to personal finance, qualitative research, and endianness in x86. It also added a section to readings.md about health, disability, and long-term care insurance. The section discusses the Affordable Care Act, rising health care costs, administrative costs,
+
+
 ### charliemeyer2000: 'sde lecture notes oct 5 2023' @ 10/05/2023, 22:15:55 to second-year
 The following files were modified: 
 - sde/notes/lecture-notes.md
