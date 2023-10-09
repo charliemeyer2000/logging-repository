@@ -1,3 +1,12 @@
+### charliemeyer2000: 'chapter 13 for personal finance' @ 10/09/2023, 02:30:15 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+- sde/notes/reading-notes.md
+
+GPT Summary: 
+ > This commit added a new file to the personal-finance/notes/readings.md which outlines the fundamentals of investing. It covers topics such as establishing investment goals, financial checkup, starting an emergency fund, and economic factors. It also provides advice on how to manage money in a
+
+
 ### charliemeyer2000: 'cso lec, entp readings, personal finance readings' @ 10/08/2023, 21:31:55 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
