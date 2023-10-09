@@ -1,3 +1,9 @@
+### charliemeyer2000: 'swapped r0 r2 for add instruction' @ 10/09/2023, 19:12:17 to second-year
+No files were modified in this commit.
+GPT Summary: 
+ > This commit added code to the file cso/notes/messing-around/hello.c, cso/notes/messing-around/hello.out, and cso/notes/messing-around/hello.s, which included a "Hello World" string and
+
+
 ### charliemeyer2000: 'chapter 13 for personal finance' @ 10/09/2023, 02:30:15 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
