@@ -1,3 +1,13 @@
+### charliemeyer2000: 'lecture notes for sde oct 10 2023' @ 10/10/2023, 19:10:21 to second-year
+The following files were modified: 
+- sde/notes/lecture-notes.md
+
+GPT Summary: 
+ > es it is hard to maintain and debug. 
+
+This commit added a lecture note to the sde/notes/lecture-notes.md file. The lecture note covers software architecture and high-level design, including components, interactions, and bad patterns. It also discusses levels of design
+
+
 ### charliemeyer2000: 'swapped r0 r2 for add instruction' @ 10/09/2023, 19:12:17 to second-year
 No files were modified in this commit.
 GPT Summary: 
