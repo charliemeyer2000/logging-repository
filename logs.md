@@ -1,3 +1,9 @@
+### charliemeyer2000: 'cso notes oct 11' @ 10/11/2023, 18:20:13 to second-year
+No files were modified in this commit.
+GPT Summary: 
+ > This commit removed the file cso/notes/slides/21-assembly.pdf.
+
+
 ### charliemeyer2000: 'x86-64 assembly writeup' @ 10/11/2023, 12:47:37 to second-year
 No files were modified in this commit.
 GPT Summary: 
