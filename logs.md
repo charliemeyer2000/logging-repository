@@ -1,3 +1,9 @@
+### charliemeyer2000: 'x86-64 assembly writeup' @ 10/11/2023, 12:47:37 to second-year
+No files were modified in this commit.
+GPT Summary: 
+ > This commit removed the file cso/notes/x86-64bit-asm-chapter.pdf.
+
+
 ### charliemeyer2000: 'lecture notes for sde oct 10 2023' @ 10/10/2023, 19:10:21 to second-year
 The following files were modified: 
 - sde/notes/lecture-notes.md
