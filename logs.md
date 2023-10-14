@@ -1,3 +1,13 @@
+### charliemeyer2000: 'cso notes and readings for personal finance' @ 10/14/2023, 19:37:16 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+
+GPT Summary: 
+ > +     * **ex-dividend date** is the date on which the stock begins trading without the dividend
+
+This commit added a new reading to the personal finance notes, which covers common and preferred stocks, dividends, and proxies. It also explains why common stock is a popular
+
+
 ### charliemeyer2000: 'cso notes oct 11' @ 10/11/2023, 18:20:13 to second-year
 No files were modified in this commit.
 GPT Summary: 
