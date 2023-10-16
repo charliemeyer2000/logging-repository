@@ -1,3 +1,14 @@
+### charliemeyer2000: 'midterm 12 notes from review sesh sde #swag' @ 10/16/2023, 00:41:52 to second-year
+No files were modified in this commit.
+GPT Summary: 
+ > FullName(), student.getGpa());
+    +     }
+    + }
+    + ```
+
+This commit added a new file, sde/notes/midterm1/notes.md, which contains a study guide for the first SDE midterm. It includes a
+
+
 ### charliemeyer2000: 'cso notes and readings for personal finance' @ 10/14/2023, 19:37:16 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
