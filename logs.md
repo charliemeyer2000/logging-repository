@@ -1,3 +1,15 @@
+### charliemeyer2000: 'notes for personal finance oct 16 2023' @ 10/16/2023, 13:14:43 to second-year
+The following files were modified: 
+- personal-finance/notes/lectures.md
+
+GPT Summary: 
+ > italization
+    + - Industry
+    + - Growth potential
+
+This commit added new content to the personal-finance/notes/lectures.md file. It covers topics such as creating an investment plan, understanding risk tolerance, time horizon, liquidity needs, and tax situation. It
+
+
 ### charliemeyer2000: 'midterm 12 notes from review sesh sde #swag' @ 10/16/2023, 00:41:52 to second-year
 No files were modified in this commit.
 GPT Summary: 
