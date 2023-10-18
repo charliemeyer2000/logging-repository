@@ -1,3 +1,17 @@
+### charliemeyer2000: 'sde notes + personal finance notes oct 18' @ 10/18/2023, 13:14:48 to second-year
+The following files were modified: 
+- personal-finance/notes/lectures.md
+- sde/notes/reading-notes.md
+
+GPT Summary: 
+ > ocusing on the fundamentals
+    + * Analyzing the company's financials
+    + * Evaluating the stock's performance
+    + * Assessing the risk
+
+This commit added information about stock supply/demand, what affects investors demand, numerical measures that influence investment decisions, and investment decision
+
+
 ### charliemeyer2000: 'notes for personal finance oct 16 2023' @ 10/16/2023, 13:14:43 to second-year
 The following files were modified: 
 - personal-finance/notes/lectures.md
