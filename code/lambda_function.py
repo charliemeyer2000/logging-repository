@@ -90,9 +90,9 @@ def generate_summary(code_added: dict, code_removed:dict, commit_message: str) -
 
     # Generate summary using OpenAI
     prompt = f"""
-    Please generate a summary of the important changes made in this GitHub commit.
+    Please generate a ONE SENTENCE summary of the important changes made in this GitHub commit.
      I will present you with the changes below, and I need you to summarize them in a succinct and easy way. 
-     The response should be entirely plain text. Here are the changes:
+     The response should be entirely plain text. DO NOT USE NEW LINES.
 
     Code Added:
     """
