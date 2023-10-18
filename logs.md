@@ -1,3 +1,13 @@
+### charliemeyer2000: 'personal finance readings for monday.' @ 10/18/2023, 15:00:12 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+
+GPT Summary: 
+ > for a predetermined number of shares of the issuing corporation's common stock.
+
+This commit added a new file, "personal-finance/notes/readings.md", which contains information about corporate bonds, why corporations sell them, and the different types of bonds.
+
+
 ### charliemeyer2000: 'sde notes + personal finance notes oct 18' @ 10/18/2023, 13:14:48 to second-year
 The following files were modified: 
 - personal-finance/notes/lectures.md
