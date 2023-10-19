@@ -1,3 +1,12 @@
+### charliemeyer2000: 'sde notes' @ 10/19/2023, 20:11:15 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+- sde/notes/lecture-notes.md
+
+GPT Summary: 
+ > This commit added two files, personal-finance/notes/readings.md and sde/notes/lecture-notes.md, which discuss total return calculations and data persistence, XML, and JSON, respectively.
+
+
 ### charliemeyer2000: 'cso notes' @ 10/19/2023, 17:46:31 to second-year
 No files were modified in this commit.
 GPT Summary: 
