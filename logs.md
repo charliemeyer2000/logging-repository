@@ -1,3 +1,9 @@
+### charliemeyer2000: 'cso notes' @ 10/19/2023, 17:46:31 to second-year
+No files were modified in this commit.
+GPT Summary: 
+ > The commit removed the file "cso/notes/slides/24-assembly.pdf".
+
+
 ### charliemeyer2000: 'personal finance readings for monday.' @ 10/18/2023, 15:00:12 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
