@@ -1,3 +1,17 @@
+### charliemeyer2000: 'website cleanups and changes' @ 10/23/2023, 13:05:35 to website2
+The following files were modified: 
+- components/post/Post.js
+- components/post/Post.module.scss
+- pages/index.js
+- posts/i-switched-to-typescript.mdx
+- posts/logging-repository.mdx
+- posts/nextjs-reflection.mdx
+- posts/test-math.mdx
+
+GPT Summary: 
+ > This commit added code to components/post/Post.js, components/post/Post.module.scss, and pages/index.js to add a description, font-size, and Link href elements.
+
+
 ### charliemeyer2000: 'sde notes' @ 10/19/2023, 20:11:15 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
