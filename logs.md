@@ -1,3 +1,14 @@
+### charliemeyer2000: 'cso notes, sde notes' @ 10/24/2023, 19:47:32 to second-year
+The following files were modified: 
+- sde/notes/lecture-notes.md
+- sde/notes/reading-notes.md
+
+GPT Summary: 
+ > .sqlite`
+
+This commit added a PDF file and a Markdown file with information about SQLite, including keywords, datatypes, and commands for creating and adding data to tables.
+
+
 ### charliemeyer2000: 'website cleanups and changes' @ 10/23/2023, 13:05:35 to website2
 The following files were modified: 
 - components/post/Post.js
