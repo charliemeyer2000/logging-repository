@@ -1,3 +1,9 @@
+### charliemeyer2000: 'notes, C' @ 10/25/2023, 16:48:59 to second-year
+No files were modified in this commit.
+GPT Summary: 
+ > This commit added three new files containing code related to characters, pointers, and types in C, as well as a function to swap two integers.
+
+
 ### charliemeyer2000: 'cso notes, sde notes' @ 10/24/2023, 19:47:32 to second-year
 The following files were modified: 
 - sde/notes/lecture-notes.md
