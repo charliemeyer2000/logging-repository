@@ -1,3 +1,18 @@
+### charliemeyer2000: 'sde notes' @ 10/26/2023, 22:39:34 to second-year
+The following files were modified: 
+- sde/notes/lecture-notes.md
+
+GPT Summary: 
+ > this.meetingTime = meetingTime;
+    +     }
+    + 
+    +     public Lecturer getLecturer() {
+    +         return lecturer;
+    +     }
+    + 
+    +     public
+
+
 ### charliemeyer2000: 'notes, C' @ 10/25/2023, 16:48:59 to second-year
 No files were modified in this commit.
 GPT Summary: 
