@@ -1,3 +1,20 @@
+### charliemeyer2000: 'viewing/adding ips to item' @ 10/30/2023, 16:19:35 to website2
+The following files were modified: 
+- pages/api/dynamo/getViews.js
+- pages/index.js
+- utils/hooks/useViews.js
+
+GPT Summary: 
+ > message: "Item created successfully.",
+    +       });
+    +       return;
+    +     }
+    + 
+    +     // update the item if it exists
+    +     const updateParams = {
+    +       TableName: process.env.D
+
+
 ### charliemeyer2000: 'new dynamo structure, including dates for each ip' @ 10/30/2023, 12:47:04 to website2
 The following files were modified: 
 - pages/index.js
