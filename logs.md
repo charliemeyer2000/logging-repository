@@ -1,3 +1,18 @@
+### charliemeyer2000: 'animated postList' @ 10/30/2023, 21:20:19 to website2
+The following files were modified: 
+- components/postList/PostList.js
+- components/postListItem/PostListItem.js
+- package.json
+- posts/serious.mdx
+- yarn.lock
+
+GPT Summary: 
+ > ets/postList/PostList.js
+    -       const postItems = yearPosts.map((yearPost, index) => (
+    -         <div className={styles.postItem}>
+    -           <PostListItem post={yearPost} />
+
+
 ### charliemeyer2000: 'cleanups on the PostList for mobile' @ 10/30/2023, 19:55:47 to website2
 The following files were modified: 
 - components/postList/PostList.js
