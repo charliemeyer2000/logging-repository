@@ -1,3 +1,13 @@
+### charliemeyer2000: 'dynamo fetching test' @ 10/30/2023, 03:03:22 to website2
+The following files were modified: 
+- package.json
+- pages/index.js
+- yarn.lock
+
+GPT Summary: 
+ > This commit added the aws-sdk package, created a fetchSlugViews API route, added an axios call to the index page, and updated the yarn.lock file.
+
+
 ### charliemeyer2000: 'c notes 28 and 29' @ 10/30/2023, 01:35:57 to second-year
 No files were modified in this commit.
 GPT Summary: 
