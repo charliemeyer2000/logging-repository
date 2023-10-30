@@ -1,3 +1,20 @@
+### charliemeyer2000: 'fixed hover color lightening effect' @ 10/30/2023, 21:50:11 to website2
+The following files were modified: 
+- components/postListItem/PostListItem.js
+- components/postListItem/PostListItem.module.scss
+
+GPT Summary: 
+ > -     transition: opacity 0.3s;
+    - }
+    - 
+    - .container:not(:hover) {
+    -     opacity: 1;
+    - }
+    - 
+    - .container:hover {
+    -     opacity
+
+
 ### web-flow: 'Merge pull request #3 from charliemeyer2000/postList-animation
 
 animated postList' @ 10/30/2023, 21:22:46 to website2
