@@ -1,3 +1,12 @@
+### charliemeyer2000: 'also gets their ip' @ 10/30/2023, 03:19:03 to website2
+The following files were modified: 
+- pages/api/dynamo/fetchSlugViews.js
+- pages/index.js
+
+GPT Summary: 
+ > This commit added code to fetchSlugViews.js and index.js to return an IP address and display it in the title, and removed code from fetchSlugViews.js and index.js to remove the title without the IP address.
+
+
 ### charliemeyer2000: 'also gets their ip' @ 10/30/2023, 03:15:56 to website2
 The following files were modified: 
 - pages/api/dynamo/fetchSlugViews.js
