@@ -1,3 +1,20 @@
+### web-flow: 'Merge pull request #3 from charliemeyer2000/postList-animation
+
+animated postList' @ 10/30/2023, 21:22:46 to website2
+The following files were modified: 
+- components/postList/PostList.js
+- components/postListItem/PostListItem.js
+- package.json
+- posts/serious.mdx
+- yarn.lock
+
+GPT Summary: 
+ > ets/postList/PostList.js
+    -       const postItems = yearPosts.map((yearPost, index) => (
+    -         <div className={styles.postItem}>
+    -           <PostListItem post={yearPost} />
+
+
 ### charliemeyer2000: 'animated postList' @ 10/30/2023, 21:20:19 to website2
 The following files were modified: 
 - components/postList/PostList.js
