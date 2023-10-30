@@ -1,3 +1,17 @@
+### charliemeyer2000: 'works relatively well' @ 10/30/2023, 18:59:36 to website2
+The following files were modified: 
+- pages/api/dynamo/getViews.js
+- pages/api/dynamo/updateItem.js
+- pages/index.js
+- utils/hooks/useViews.js
+
+GPT Summary: 
+ > Views = async () => {
+    +     const { data } = await axios.get(`/api/dynamo/getViews?slug=${slug}`);
+    +     setViews(data.views);
+    +     set
+
+
 ### charliemeyer2000: 'c notes 29th meeting cso' @ 10/30/2023, 17:41:54 to second-year
 The following files were modified: 
 - personal-finance/notes/lectures.md
