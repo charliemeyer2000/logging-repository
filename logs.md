@@ -1,3 +1,11 @@
+### charliemeyer2000: 'new dynamo structure, including dates for each ip' @ 10/30/2023, 12:47:04 to website2
+The following files were modified: 
+- pages/index.js
+
+GPT Summary: 
+ > This commit added three files and updated one existing file to add a hook for tracking views on a post, including the IP address and visit date of each view.
+
+
 ### charliemeyer2000: 'also gets their ip' @ 10/30/2023, 03:19:03 to website2
 The following files were modified: 
 - pages/api/dynamo/fetchSlugViews.js
