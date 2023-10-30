@@ -1,3 +1,9 @@
+### charliemeyer2000: 'c notes 28 and 29' @ 10/30/2023, 01:35:57 to second-year
+No files were modified in this commit.
+GPT Summary: 
+ > This commit added a subproject commit, a PDF file, and a Markdown file with notes on pointer rules in C.
+
+
 ### charliemeyer2000: 'sde notes' @ 10/26/2023, 22:39:34 to second-year
 The following files were modified: 
 - sde/notes/lecture-notes.md
