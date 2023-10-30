@@ -1,3 +1,13 @@
+### charliemeyer2000: 'c notes 29th meeting cso' @ 10/30/2023, 17:41:54 to second-year
+The following files were modified: 
+- personal-finance/notes/lectures.md
+
+GPT Summary: 
+ > + * Collectibles
+
+This commit added several files related to C programming and a lecture on alternative assets, such as gold, real estate, private equity, venture capital, and hedge funds.
+
+
 ### charliemeyer2000: 'viewing/adding ips to item' @ 10/30/2023, 16:19:35 to website2
 The following files were modified: 
 - pages/api/dynamo/getViews.js
