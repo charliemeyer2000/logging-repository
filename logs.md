@@ -1,3 +1,18 @@
+### charliemeyer2000: 'cleanups on the PostList for mobile' @ 10/30/2023, 19:55:47 to website2
+The following files were modified: 
+- components/postList/PostList.js
+- components/postListItem/PostListItem.js
+- components/postListItem/PostListItem.module.scss
+
+GPT Summary: 
+ > -     flex-basis: auto;
+    -     font-size: var(--sub-text);
+    -     color: var(--grey);
+    - }
+    - 
+    - @media only screen and (max-width: 555px)
+
+
 ### charliemeyer2000: 'stores hashes, not ips' @ 10/30/2023, 19:44:07 to website2
 The following files were modified: 
 - components/postTableOfContents/PostTableOfContents.js
