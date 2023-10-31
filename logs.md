@@ -1,3 +1,17 @@
+### charliemeyer2000: 'cleanups & view counter blog post' @ 10/31/2023, 20:25:26 to website2
+The following files were modified: 
+- components/post/Post.js
+- components/postListItem/PostListItem.js
+- static/types/Components.js
+- static/types/Components.module.scss
+- utils/hooks/useViews.js
+
+GPT Summary: 
+ > great fit for this project.
+
+This commit added code to three files and a new post to add a view counter to a blog, leveraging DynamoDB for the project.
+
+
 ### charliemeyer2000: 'fixed hover color lightening effect' @ 10/30/2023, 21:50:11 to website2
 The following files were modified: 
 - components/postListItem/PostListItem.js
