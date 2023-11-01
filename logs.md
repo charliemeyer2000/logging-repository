@@ -1,3 +1,16 @@
+### charliemeyer2000: 'code examples for sde + cso notes lec 30' @ 11/01/2023, 20:42:30 to second-year
+No files were modified in this commit.
+GPT Summary: 
+ > Time = meetingTime;
+    +     }
+    + 
+    +     public Lecturer getLecturer() {
+    +         return lecturer;
+    +     }
+    + 
+    +     public void setLecturer
+
+
 ### web-flow: 'Merge pull request #4 from charliemeyer2000/viewCount-cleanups
 
 cleanups & view counter blog post' @ 10/31/2023, 20:26:07 to website2
