@@ -1,3 +1,14 @@
+### charliemeyer2000: 'sde lecture notes' @ 11/02/2023, 20:14:47 to second-year
+The following files were modified: 
+- cso/cso1-code
+- sde/notes/lecture-notes.md
+
+GPT Summary: 
+ > l
+
+This commit added a PDF file, a subproject commit, a BridgeDemo class, and a Renderer interface with ColorRenderer and GrayscaleRenderer implementations to provide a bridge between shapes and renderers.
+
+
 ### charliemeyer2000: 'code examples for sde + cso notes lec 30' @ 11/01/2023, 20:42:30 to second-year
 No files were modified in this commit.
 GPT Summary: 
