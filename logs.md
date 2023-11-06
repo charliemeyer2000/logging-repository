@@ -1,3 +1,14 @@
+### charliemeyer2000: 'cso notes and also personal finance lectures' @ 11/06/2023, 14:14:49 to second-year
+The following files were modified: 
+- cso/cso1-code
+- personal-finance/notes/lectures.md
+
+GPT Summary: 
+ > leifs
+
+This commit added code to the cso/cso1-code subproject, a PDF file to the cso/notes/slides folder, and a lecture on behavioral finance to the personal-finance/notes/lectures.md file, which discussed common
+
+
 ### charliemeyer2000: 'sde lecture notes' @ 11/02/2023, 20:14:47 to second-year
 The following files were modified: 
 - cso/cso1-code
