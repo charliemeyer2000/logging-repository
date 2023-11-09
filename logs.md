@@ -1,3 +1,12 @@
+### charliemeyer2000: 'notes sde 11/9' @ 11/09/2023, 20:12:20 to second-year
+The following files were modified: 
+- sde/notes/lecture-notes.md
+- sde/notes/reading-notes.md
+
+GPT Summary: 
+ > This commit added a lecture note on databases (ORM, JPA, Hibernate) with code examples and an explanation of ORM to automatically go from Object to Record in a database and back.
+
+
 ### charliemeyer2000: 'Remove cso1-code from tracking' @ 11/08/2023, 13:12:16 to second-year
 No files were modified in this commit.
 GPT Summary: 
