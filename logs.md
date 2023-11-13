@@ -1,3 +1,14 @@
+### charliemeyer2000: 'personal finance, sde, cso notes' @ 11/13/2023, 14:47:51 to second-year
+The following files were modified: 
+- personal-finance/notes/lectures.md
+- sde/notes/lecture-notes.md
+
+GPT Summary: 
+ > - * We can use the same code to talk with the database. 
+
+This commit added information about ETFs, tax-efficient investing, income and capital gains, and best investment accounts for different types of investments, while removing a statement about redundant code.
+
+
 ### charliemeyer2000: 'notes sde 11/9' @ 11/09/2023, 20:12:20 to second-year
 The following files were modified: 
 - sde/notes/lecture-notes.md
