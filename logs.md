@@ -1,3 +1,9 @@
+### charliemeyer2000: 'cso notes nov 13' @ 11/13/2023, 20:43:31 to second-year
+No files were modified in this commit.
+GPT Summary: 
+ > This commit removed the file "cso/notes/slides/33-c-memory.pdf".
+
+
 ### charliemeyer2000: 'personal finance, sde, cso notes' @ 11/13/2023, 14:47:51 to second-year
 The following files were modified: 
 - personal-finance/notes/lectures.md
