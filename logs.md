@@ -1,3 +1,14 @@
+### charliemeyer2000: 'sde notes javafx' @ 11/14/2023, 21:18:22 to second-year
+The following files were modified: 
+- sde/notes/lecture-notes.md
+
+GPT Summary: 
+ > }
+    + }
+
+This commit added a JavaFX application with a controller class to perform calculations and display errors in red.
+
+
 ### charliemeyer2000: 'Add retirement planning notes' @ 11/14/2023, 03:52:39 to second-year
 The following files were modified: 
 - personal-finance/notes/readings.md
