@@ -1,3 +1,18 @@
+### charliemeyer2000: 'Add retirement planning notes' @ 11/14/2023, 03:52:39 to second-year
+The following files were modified: 
+- personal-finance/notes/readings.md
+
+GPT Summary: 
+ > ccessary to understand your current financial situation
+    + * Estimate future expenses
+    + * Estimate future income
+    + * Calculate net worth
+    + * Calculate retirement income
+    + * Calculate retirement expenses
+    + * Calculate retirement savings
+    + *
+
+
 ### charliemeyer2000: 'cso notes nov 13' @ 11/13/2023, 20:43:31 to second-year
 No files were modified in this commit.
 GPT Summary: 
