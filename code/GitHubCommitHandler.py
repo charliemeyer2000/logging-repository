@@ -1,4 +1,3 @@
-import tiktoken
 import requests
 import datetime
 import openai
@@ -7,6 +6,8 @@ import json
 import os
 
 def lambda_handler(event, context):
+    if 'body' in event:
+        event = json.loads(event['body'])
     ghCommitHandler = GitHubCommitHandler(event)
     ghCommitHandler.handle_commit()
     return {
@@ -17,8 +18,7 @@ def lambda_handler(event, context):
 class GitHubCommitHandler:
     def __init__(self, event):
         self.event = event
-        # self.payload = json.loads(event['body'])
-        self.payload = json.loads(event)
+        self.payload = isinstance(event, str) and json.loads(event) or event
         self.commit_message = self.payload['head_commit']['message']
         self.commit_sha = self.payload['head_commit']['id']
         self.repository_committed_to = self.payload['repository']['name']
@@ -39,11 +39,11 @@ class GitHubCommitHandler:
         data = response.json()
         return data
     
-    def get_num_tokens(self, string: str) -> int:
-        """Returns the number of tokens in a text string for text-davinci-003"""
-        encoding = tiktoken.encoding_for_model("text-davinci-003")
-        num_tokens = len(encoding.encode(string))
-        return num_tokens
+    # def get_num_tokens(self, string: str) -> int:
+    #     """Returns the number of tokens in a text string for text-davinci-003"""
+    #     encoding = tiktoken.encoding_for_model("text-davinci-003")
+    #     num_tokens = len(encoding.encode(string))
+    #     return num_tokens
 
 
     def generate_summary(self, code_added, code_removed, code_modified) -> str:
@@ -72,7 +72,7 @@ class GitHubCommitHandler:
         # if the prompt is over 4096 tokens, 
         # truncate the prompt to 4096 tokens
 
-        prompt_len = self.get_num_tokens(prompt)
+        prompt_len = len(prompt)
         if (prompt_len > 4096 - 400):
             prompt = prompt[:4096 - 400]
             prompt += "..."
