@@ -1,3 +1,9 @@
+### charliemeyer2000: 'added more info for README' @ 12/12/2023, 23:52:20 to second-year
+
+GPT Summary: 
+ > With these changes, this commit is sure to put a smile on your face - no more confusion regarding the README.md!
+
+
 ### charliemeyer2000: 'added readme.md' @ 12/12/2023, 23:49:15 to second-year
 
 GPT Summary: 
