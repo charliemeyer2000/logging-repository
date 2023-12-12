@@ -1,3 +1,12 @@
+### charliemeyer2000: 'changes' @ 12/12/2023, 18:15:49 to second-year
+The following files were modified: 
+- .gitignore
+- sde/notes/midterm1/notes.md
+
+GPT Summary: 
+ > This commit changes .gitignore, sde/notes/midterm1/notes.md, and removes sde/notes/exam/JSONParsin/gradle/wrapper/gradle-wrapper.jar, sde/notes/exam/JSONParsin/gradlew, sde/notes/exam/JSONParsin/src/main/java/org/example/Cat.java, sde/notes/exam/JSONParsin/src/main/java/org/example/Main.java, sde/notes/exam/quizzes.md, and sde/notes/exam/study-guide.md.
+
+
 ### charliemeyer2000: 'sde notes javafx' @ 11/14/2023, 21:18:22 to second-year
 The following files were modified: 
 - sde/notes/lecture-notes.md
