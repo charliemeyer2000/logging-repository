@@ -1,3 +1,9 @@
+### charliemeyer2000: 'added readme.md' @ 12/12/2023, 23:49:15 to second-year
+
+GPT Summary: 
+ > This commit adds a README file, so you know exactly what you're getting into - a guaranteed good time!
+
+
 ### charliemeyer2000: 'changes' @ 12/12/2023, 18:15:49 to second-year
 The following files were modified: 
 - .gitignore
