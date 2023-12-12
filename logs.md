@@ -1,3 +1,9 @@
+### charliemeyer2000: 'updated paragraph slightly.' @ 12/12/2023, 23:57:55 to charliemeyer2000
+
+GPT Summary: 
+ > This commit is all about spicing things up: we modified the README.md, adding a bit of humor to the project!
+
+
 ### charliemeyer2000: 'added more info for README' @ 12/12/2023, 23:52:20 to second-year
 
 GPT Summary: 
