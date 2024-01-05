@@ -1,3 +1,9 @@
+### charliemeyer2000: 'adding sitemap' @ 01/05/2024, 05:07:26 to website2
+
+GPT Summary: 
+ > "This commit adds some sitemap spice to the mix - because what's a website without a sitemap?!"
+
+
 ### charliemeyer2000: 'updated website description slightly.' @ 12/16/2023, 16:24:15 to website2
 
 GPT Summary: 
